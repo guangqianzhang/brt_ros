@@ -1,0 +1,15 @@
+
+<launch>
+    <arg name="camera_topic" default="/kitti/camera_gray_left/image_raw"/>
+    <arg name="lidar_topic" default="/kitti/velo/pointcloud"/>
+
+    <arg name="camera_topic_out" default="/project_pc_image"/>
+    <arg name="camera_frame_id" default="/camera_main"/>
+    <node pkg="brt_detection" type="projector" name="test_frame_node" output="screen">
+        <param name="camera_topic" value="$(arg camera_topic)" />
+        <param name="lidar_topic" value="$(arg lidar_topic)"/>
+        <param name="camera_frame_id" value="$(arg camera_frame_id"/>
+        <param name="camera_topic_out" value="$(arg camera_topic_out)"/>
+
+    </node>
+</launch>

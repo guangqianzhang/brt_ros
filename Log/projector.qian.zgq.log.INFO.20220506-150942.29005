@@ -1,0 +1,11 @@
+Log file created at: 2022/05/06 15:09:42
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0506 15:09:42.349450 29005 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
+I0506 15:09:42.357683 29005 project.cpp:13] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
+I0506 15:09:42.359647 29005 project.cpp:16] /test_frame_nodelidar_topic:/kitti/velo/pointcloud
+I0506 15:09:42.361326 29005 project.cpp:20] /test_frame_nodecamera_frame_id:$(arg camera_frame_id
+I0506 15:09:42.375324 29005 project.cpp:23] /test_frame_nodecamera_topic_out:/project_pc_image
+I0506 15:09:42.416631 29005 project.cpp:44] get the camtocam_mat
+I0506 15:09:42.416946 29005 project.cpp:53] get the cameraIn
+I0506 15:09:42.417105 29005 project.cpp:61] get the RT
