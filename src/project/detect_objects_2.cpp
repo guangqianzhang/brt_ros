@@ -9,16 +9,10 @@
 #include "brt_detection/project/detection.hpp"
 using namespace std;
 
-void detectObjects(cv::Mat &img, std::vector<BoundingBox> &bBoxes,vector<string> &classes, float confThreshold, float nmsThreshold,
-                   std::string classesFile, std::string modelConfiguration, std::string modelWeights, bool bVis)
+void detectObjects(cv::Mat &img, std::vector<BoundingBox> &bBoxes,vector<string> classes, float confThreshold, float nmsThreshold,
+                    std::string modelConfiguration, std::string modelWeights, bool bVis)
 
 {
-    
-    ifstream ifs(classesFile.c_str());
-    string line;
-    while (getline(ifs, line))
-        classes.push_back(line);
-
     // load neural network
     cv::dnn::Net net = cv::dnn::readNetFromDarknet(modelConfiguration, modelWeights);
     net.setPreferableBackend(cv::dnn::DNN_BACKEND_OPENCV);

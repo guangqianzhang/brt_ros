@@ -1,0 +1,21 @@
+Log file created at: 2022/05/07 14:35:16
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 14:35:16.419469 23171 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
+I0507 14:35:26.152438 23171 project.cpp:15] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
+I0507 14:35:26.154682 23171 project.cpp:18] /test_frame_nodelidar_topic:/kitti/velo/pointcloud
+I0507 14:35:26.157065 23171 project.cpp:21] /test_frame_nodecamera_frame_id:$(arg camera_frame_id
+I0507 14:35:26.158620 23171 project.cpp:24] /test_frame_nodecamera_topic_out:
+I0507 14:35:26.160959 23171 project.cpp:35] /test_frame_nodemedel_path:/home/zgq/Documents/model/yolo/
+I0507 14:35:26.161002 23171 project.cpp:36] /test_frame_nodeyoloclassfile:/home/zgq/Documents/model/yolo/coco.names
+I0507 14:35:26.161015 23171 project.cpp:37] /test_frame_nodeyoloModelConfiguration:/home/zgq/Documents/model/yolo/yolov4-tiny.cfg
+I0507 14:35:26.161026 23171 project.cpp:38] /test_frame_nodeyoloModelWeights:/home/zgq/Documents/model/yolo/yolov4-tiny.weights
+I0507 14:35:26.247108 23171 project.cpp:64] get the camtocam_mat
+I0507 14:35:26.247144 23171 project.cpp:79] get the cameraIn
+I0507 14:35:26.247162 23171 project.cpp:93] get the RT
+I0507 14:35:26.925336 23171 project.cpp:216] 1. LOAD the Lidar and image frame Done!
+I0507 14:35:27.212136 23171 project.cpp:229] 2. Detect the Frame classificator Done!
+I0507 14:39:05.371464 23171 project.cpp:233] 3. Draw the point intpo  ROI Done!
+I0507 14:39:05.378803 23171 project.cpp:244] 4. project picture is published!
+I0507 14:39:05.403991 23171 project.cpp:216] 1. LOAD the Lidar and image frame Done!
+I0507 14:39:44.989441 23171 project.cpp:229] 2. Detect the Frame classificator Done!

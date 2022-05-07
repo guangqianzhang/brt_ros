@@ -68,10 +68,11 @@ namespace DetectandTract
         std::string yoloclassfile;
         std::string yoloModelConfiguration;
         std::string yoloModelWeights;
+        std::vector<std::string> classes;
 
         float confThreshold;
         float nmsThreshold; // Non-maximum suppression threshold
-        float shrinkFactor ;
+        float shrinkFactor;
         bool bVis;
 
         // crop lidar points
@@ -85,10 +86,12 @@ namespace DetectandTract
             cv::Mat RT;
         } i_params;
 
-        struct out_messages{
-            Eigen::Vector4cf centroid_;
+        struct out_messages
+        {
+            LidarPoint centroid_;
+            Eigen::Vector4cf centroid;
 
-        }out_msgs;
+        } out_msgs;
         void projection_callback(const sensor_msgs::Image::ConstPtr &img,
                                  const sensor_msgs::PointCloud2::ConstPtr &pc);
         void initParams();
@@ -98,9 +101,12 @@ namespace DetectandTract
 
         void clusterLidarWithROI(std::vector<BoundingBox> &boundingBoxes, pcl::PointCloud<pcl::PointXYZ>::Ptr lidarPoints);
 
-        void drawImage(BoundingBox box, cv::Mat &img,std::vector<std::string> classes);
-        void drawPoint(cv::Mat &img,cv::Point pt);
-        void centroid(Eigen::Vector4cf centroid,PointCloud_P cloud_p);
+        void drawImage(BoundingBox box, cv::Mat &img);
+        void drawPoint(cv::Mat &img, cv::Point pt);
+        void centroid(LidarPoint &centroid, BoundingBox *box);
+        void centroid(Eigen::Vector4cf centroid, PointCloud_P cloud_p);
+        void outMessage(DataFrame &frame);
+
     public:
         projector();
     };

@@ -1,0 +1,183 @@
+Log file created at: 2022/05/07 14:28:01
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 14:28:01.324204 12324 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
+I0507 14:28:01.348954 12324 project.cpp:15] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
+I0507 14:28:01.351702 12324 project.cpp:18] /test_frame_nodelidar_topic:/kitti/velo/pointcloud
+I0507 14:28:01.355428 12324 project.cpp:21] /test_frame_nodecamera_frame_id:$(arg camera_frame_id
+I0507 14:28:01.358975 12324 project.cpp:24] /test_frame_nodecamera_topic_out:
+I0507 14:28:01.364167 12324 project.cpp:35] /test_frame_nodemedel_path:/home/zgq/Documents/model/yolo/
+I0507 14:28:01.364255 12324 project.cpp:36] /test_frame_nodeyoloclassfile:/home/zgq/Documents/model/yolo/coco.names
+I0507 14:28:01.364287 12324 project.cpp:37] /test_frame_nodeyoloModelConfiguration:/home/zgq/Documents/model/yolo/yolov4-tiny.cfg
+I0507 14:28:01.364356 12324 project.cpp:38] /test_frame_nodeyoloModelWeights:/home/zgq/Documents/model/yolo/yolov4-tiny.weights
+I0507 14:28:01.441459 12324 project.cpp:64] get the camtocam_mat
+I0507 14:28:01.441509 12324 project.cpp:79] get the cameraIn
+I0507 14:28:01.441532 12324 project.cpp:93] get the RT
+I0507 14:28:13.794297 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:14.041237 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:14.308895 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:14.309372 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:14.332737 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:14.460923 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:14.735509 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:14.735755 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:14.757460 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:14.888571 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:15.136775 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:15.137079 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:15.154744 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:15.275776 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:15.527871 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:15.528234 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:15.549674 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:15.686331 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:15.940659 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:15.940901 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:15.958562 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:16.083801 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:16.338563 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:16.338867 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:16.356492 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:16.474995 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:16.729972 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:16.730252 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:16.748286 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:16.871798 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:17.130070 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:17.130358 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:17.148226 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:17.600852 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:17.846071 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:17.846482 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:17.864926 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:17.999191 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:18.287153 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:18.287559 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:18.305513 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:18.426381 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:18.677520 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:18.677830 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:18.695127 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:18.804800 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:19.050305 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:19.050577 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:19.067027 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:19.186357 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:19.444483 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:19.444993 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:19.465219 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:19.616967 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:19.953307 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:19.953680 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:19.976716 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:20.108947 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:20.377260 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:20.377537 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:20.394703 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:20.496956 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:20.797791 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:20.798060 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:20.815713 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:20.912194 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:21.184386 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:21.184664 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:21.202087 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:21.305518 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:21.582396 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:21.582692 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:21.600234 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:21.695616 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:21.970654 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:21.970909 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:21.989852 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:22.095263 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:22.367293 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:22.367610 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:22.385747 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:22.483489 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:22.744678 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:22.759857 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:22.779706 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:22.882426 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:23.123317 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:23.123728 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:23.143393 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:23.243786 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:23.492329 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:23.492728 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:23.519805 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:23.620664 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:23.875339 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:23.875823 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:23.895376 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:24.004024 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:24.259948 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:24.260406 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:24.277376 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:24.378994 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:24.629571 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:24.630115 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:24.648849 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:24.753180 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:25.021154 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:25.021550 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:25.042182 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:25.148056 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:25.419556 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:25.420667 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:25.441268 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:25.540735 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:25.806519 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:25.807096 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:25.830374 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:25.935658 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:26.215946 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:26.216938 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:26.237303 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:26.336874 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:26.617375 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:26.617794 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:26.639971 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:26.744709 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:27.017094 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:27.017448 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:27.036418 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:27.135051 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:27.413110 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:27.413534 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:27.433617 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:27.537065 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:27.815924 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:27.816390 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:27.836757 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:27.953457 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:28.258373 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:28.258841 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:28.278265 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:28.395908 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:28.703881 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:28.704419 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:28.723088 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:28.851310 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:29.143011 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:29.143534 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:29.161154 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:29.288663 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:29.600349 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:29.600980 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:29.620481 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:29.758286 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:30.042256 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:30.042719 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:30.062969 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:30.303282 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:30.595098 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:30.595357 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:30.611898 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:30.712620 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:30.967866 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:30.968124 12324 project.cpp:238] 4. project picture is published!
+I0507 14:28:30.985388 12324 project.cpp:210] 1. LOAD the Lidar and image frame Done!
+I0507 14:28:31.084620 12324 project.cpp:223] 2. Detect the Frame classificator Done!
+I0507 14:28:31.344929 12324 project.cpp:227] 3. Draw the point intpo  ROI Done!
+I0507 14:28:31.346282 12324 project.cpp:238] 4. project picture is published!

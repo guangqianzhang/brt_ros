@@ -1,0 +1,1349 @@
+Log file created at: 2022/05/07 21:39:07
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 21:39:07.278388  9089 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
+I0507 21:39:07.286267  9089 project.cpp:15] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
+I0507 21:39:07.287039  9089 project.cpp:18] /test_frame_nodelidar_topic:/kitti/velo/pointcloud
+I0507 21:39:07.287786  9089 project.cpp:21] /test_frame_nodecamera_frame_id:$(arg camera_frame_id
+I0507 21:39:07.288522  9089 project.cpp:24] /test_frame_nodecamera_topic_out:
+I0507 21:39:07.289923  9089 project.cpp:38] /test_frame_nodemedel_path:/home/zgq/Documents/model/yolo/
+I0507 21:39:07.289973  9089 project.cpp:39] /test_frame_nodeyoloclassfile:/home/zgq/Documents/model/yolo/coco.names
+I0507 21:39:07.289986  9089 project.cpp:40] /test_frame_nodeyoloModelConfiguration:/home/zgq/Documents/model/yolo/yolov4-tiny.cfg
+I0507 21:39:07.290002  9089 project.cpp:41] /test_frame_nodeyoloModelWeights:/home/zgq/Documents/model/yolo/yolov4-tiny.weights
+I0507 21:39:07.314015  9089 project.cpp:65] get the camtocam_mat
+I0507 21:39:07.314088  9089 project.cpp:80] get the cameraIn
+I0507 21:39:07.314119  9089 project.cpp:94] get the RT
+I0507 21:39:07.843605  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:08.083461  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:08.388912  9089 project.cpp:232] distance:3.64366
+I0507 21:39:08.388955  9089 project.cpp:233] centroid2.99169 -0.807446
+I0507 21:39:08.389142  9089 project.cpp:232] distance:0.0936766
+I0507 21:39:08.389168  9089 project.cpp:233] centroid0.0914025 -0.0476871
+I0507 21:39:08.389264  9089 project.cpp:232] distance:2.06962
+I0507 21:39:08.389281  9089 project.cpp:233] centroid2.05299 -0.128926
+I0507 21:39:08.389354  9089 project.cpp:232] distance:2.14838
+I0507 21:39:08.389374  9089 project.cpp:233] centroid1.98652 0.402322
+I0507 21:39:08.389439  9089 project.cpp:232] distance:14.7876
+I0507 21:39:08.389452  9089 project.cpp:233] centroid-14.4182 0.607824
+I0507 21:39:08.389488  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:08.391192  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:08.395097  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:08.534560  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:08.774821  9089 project.cpp:232] distance:4.04336
+I0507 21:39:08.774852  9089 project.cpp:233] centroid3.46528 0.760314
+I0507 21:39:08.774904  9089 project.cpp:232] distance:1.95924
+I0507 21:39:08.774909  9089 project.cpp:233] centroid1.69819 -0.510933
+I0507 21:39:08.774974  9089 project.cpp:232] distance:0.103858
+I0507 21:39:08.774981  9089 project.cpp:233] centroid0.0412601 -0.250196
+I0507 21:39:08.775038  9089 project.cpp:232] distance:0.359777
+I0507 21:39:08.775044  9089 project.cpp:233] centroid-0.359358 0.0204563
+I0507 21:39:08.775070  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:08.776091  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:08.780516  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:08.893601  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:09.097771  9089 project.cpp:232] distance:6.98562
+I0507 21:39:09.097801  9089 project.cpp:233] centroid5.38138 1.26659
+I0507 21:39:09.097846  9089 project.cpp:232] distance:0.109549
+I0507 21:39:09.097853  9089 project.cpp:233] centroid-0.106395 0.0561655
+I0507 21:39:09.097888  9089 project.cpp:232] distance:0.939337
+I0507 21:39:09.097895  9089 project.cpp:233] centroid0.90319 0.190123
+I0507 21:39:09.097950  9089 project.cpp:232] distance:2.15985
+I0507 21:39:09.097957  9089 project.cpp:233] centroid1.90657 -0.503272
+I0507 21:39:09.098001  9089 project.cpp:232] distance:12.3441
+I0507 21:39:09.098008  9089 project.cpp:233] centroid-12.0949 0.499194
+I0507 21:39:09.098035  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:09.099076  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:09.103564  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:09.215400  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:09.417654  9089 project.cpp:232] distance:8.23057
+I0507 21:39:09.417719  9089 project.cpp:233] centroid5.70479 1.58927
+I0507 21:39:09.417770  9089 project.cpp:232] distance:1.58841
+I0507 21:39:09.417778  9089 project.cpp:233] centroid1.24537 0.585696
+I0507 21:39:09.417827  9089 project.cpp:232] distance:0.373566
+I0507 21:39:09.417834  9089 project.cpp:233] centroid-0.363496 0.100348
+I0507 21:39:09.417877  9089 project.cpp:232] distance:3.07096
+I0507 21:39:09.417883  9089 project.cpp:233] centroid2.39298 -0.823392
+I0507 21:39:09.417927  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:09.418632  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:09.423108  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:09.535094  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:09.735464  9089 project.cpp:232] distance:0.603634
+I0507 21:39:09.735494  9089 project.cpp:233] centroid0.603328 -0.0174654
+I0507 21:39:09.735536  9089 project.cpp:232] distance:8.80736
+I0507 21:39:09.735544  9089 project.cpp:233] centroid5.92053 1.69907
+I0507 21:39:09.735591  9089 project.cpp:232] distance:8.53734
+I0507 21:39:09.735597  9089 project.cpp:233] centroid3.48466 2.24782
+I0507 21:39:09.735647  9089 project.cpp:232] distance:5.78941
+I0507 21:39:09.735653  9089 project.cpp:233] centroid3.70866 -1.44248
+I0507 21:39:09.735700  9089 project.cpp:232] distance:0.0482035
+I0507 21:39:09.735713  9089 project.cpp:233] centroid0.0478235 0.0194941
+I0507 21:39:09.735736  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:09.736827  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:09.742002  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:09.845985  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:10.047636  9089 project.cpp:232] distance:10.5075
+I0507 21:39:10.047677  9089 project.cpp:233] centroid5.00871 2.34496
+I0507 21:39:10.047732  9089 project.cpp:232] distance:1.03119
+I0507 21:39:10.047739  9089 project.cpp:233] centroid-0.995746 0.188275
+I0507 21:39:10.047781  9089 project.cpp:232] distance:34.243
+I0507 21:39:10.047787  9089 project.cpp:233] centroid8.86273 -5.03788
+I0507 21:39:10.047823  9089 project.cpp:232] distance:9.69184
+I0507 21:39:10.047828  9089 project.cpp:233] centroid-9.39538 0.544482
+I0507 21:39:10.047852  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:10.048664  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:10.052229  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:10.162357  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:10.368188  9089 project.cpp:232] distance:3.22029
+I0507 21:39:10.368219  9089 project.cpp:233] centroid-2.9738 0.496471
+I0507 21:39:10.368268  9089 project.cpp:232] distance:8.92544
+I0507 21:39:10.368275  9089 project.cpp:233] centroid4.4765 2.10925
+I0507 21:39:10.368312  9089 project.cpp:232] distance:9.42735
+I0507 21:39:10.368317  9089 project.cpp:233] centroid-9.14554 0.530856
+I0507 21:39:10.368345  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:10.369120  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:10.373497  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:10.487486  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:10.692586  9089 project.cpp:232] distance:12.9965
+I0507 21:39:10.692620  9089 project.cpp:233] centroid5.57514 2.72422
+I0507 21:39:10.692693  9089 project.cpp:232] distance:0.998609
+I0507 21:39:10.692709  9089 project.cpp:233] centroid-0.960294 0.195741
+I0507 21:39:10.692756  9089 project.cpp:232] distance:14.385
+I0507 21:39:10.692767  9089 project.cpp:233] centroid-13.4594 0.962066
+I0507 21:39:10.692804  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:10.693881  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:10.698161  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:10.833992  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:11.061594  9089 project.cpp:232] distance:23.263
+I0507 21:39:11.061626  9089 project.cpp:233] centroid7.39408 3.98359
+I0507 21:39:11.061681  9089 project.cpp:232] distance:1.64568
+I0507 21:39:11.061688  9089 project.cpp:233] centroid-1.56336 0.286916
+I0507 21:39:11.061722  9089 project.cpp:232] distance:13.2957
+I0507 21:39:11.061728  9089 project.cpp:233] centroid-12.3742 0.95997
+I0507 21:39:11.061761  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:11.062963  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:11.066793  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:11.193647  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:11.394953  9089 project.cpp:232] distance:0.6148
+I0507 21:39:11.394987  9089 project.cpp:233] centroid0.612893 -0.0436715
+I0507 21:39:11.395038  9089 project.cpp:232] distance:37.3144
+I0507 21:39:11.395046  9089 project.cpp:233] centroid8.98352 5.32267
+I0507 21:39:11.395081  9089 project.cpp:232] distance:16.0056
+I0507 21:39:11.395088  9089 project.cpp:233] centroid-14.4689 1.23965
+I0507 21:39:11.395114  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:11.396178  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:11.400122  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:11.510130  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:11.729058  9089 project.cpp:232] distance:3.13383
+I0507 21:39:11.729101  9089 project.cpp:233] centroid-2.96087 0.415893
+I0507 21:39:11.729149  9089 project.cpp:232] distance:1.31344
+I0507 21:39:11.729156  9089 project.cpp:233] centroid1.20709 -0.326112
+I0507 21:39:11.729194  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:11.729861  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:11.733780  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:11.871001  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:12.112601  9089 project.cpp:232] distance:10.0929
+I0507 21:39:12.112658  9089 project.cpp:233] centroid-8.55297 1.24096
+I0507 21:39:12.112757  9089 project.cpp:232] distance:4.1279
+I0507 21:39:12.112773  9089 project.cpp:233] centroid3.20022 -0.96316
+I0507 21:39:12.112848  9089 project.cpp:232] distance:0.967719
+I0507 21:39:12.112860  9089 project.cpp:233] centroid0.824577 -0.378342
+I0507 21:39:12.112916  9089 project.cpp:232] distance:40.2698
+I0507 21:39:12.112931  9089 project.cpp:233] centroid-38.1139 1.4683
+I0507 21:39:12.112985  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:12.114524  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:12.120522  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:12.258075  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:12.533414  9089 project.cpp:232] distance:6.94519
+I0507 21:39:12.533447  9089 project.cpp:233] centroid-5.89714 1.02374
+I0507 21:39:12.533502  9089 project.cpp:232] distance:3.76785
+I0507 21:39:12.533510  9089 project.cpp:233] centroid2.85997 -0.95283
+I0507 21:39:12.533573  9089 project.cpp:232] distance:38.5817
+I0507 21:39:12.533583  9089 project.cpp:233] centroid-35.7018 1.69703
+I0507 21:39:12.533617  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:12.534670  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:12.539443  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:12.646540  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:12.856743  9089 project.cpp:232] distance:5.06872
+I0507 21:39:12.856771  9089 project.cpp:233] centroid-4.37907 0.830452
+I0507 21:39:12.856822  9089 project.cpp:232] distance:3.87237
+I0507 21:39:12.856827  9089 project.cpp:233] centroid2.84573 -1.01323
+I0507 21:39:12.856875  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:12.857626  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:12.862294  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:12.956432  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:13.175887  9089 project.cpp:232] distance:5.26647
+I0507 21:39:13.175933  9089 project.cpp:233] centroid3.28764 -1.40671
+I0507 21:39:13.175992  9089 project.cpp:232] distance:1.84953
+I0507 21:39:13.175999  9089 project.cpp:233] centroid-1.6982 0.389005
+I0507 21:39:13.176031  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:13.176582  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:13.182186  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:13.287159  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:13.499056  9089 project.cpp:232] distance:1.43475
+I0507 21:39:13.499085  9089 project.cpp:233] centroid1.34298 -0.302931
+I0507 21:39:13.499142  9089 project.cpp:232] distance:21.5988
+I0507 21:39:13.499150  9089 project.cpp:233] centroid7.1689 -3.79867
+I0507 21:39:13.499181  9089 project.cpp:232] distance:36.4404
+I0507 21:39:13.499186  9089 project.cpp:233] centroid-32.4771 1.9908
+I0507 21:39:13.499210  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:13.499864  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:13.503823  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:13.598333  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:13.818928  9089 project.cpp:232] distance:2.13867
+I0507 21:39:13.818960  9089 project.cpp:233] centroid1.88621 -0.502454
+I0507 21:39:13.819026  9089 project.cpp:232] distance:25.552
+I0507 21:39:13.819034  9089 project.cpp:233] centroid7.38201 -4.26262
+I0507 21:39:13.819077  9089 project.cpp:232] distance:20.9217
+I0507 21:39:13.819083  9089 project.cpp:233] centroid-12.9674 -2.82033
+I0507 21:39:13.819114  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:13.819723  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:13.823655  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:13.928292  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:14.144455  9089 project.cpp:232] distance:3.98547
+I0507 21:39:14.144488  9089 project.cpp:233] centroid3.20814 -0.881662
+I0507 21:39:14.144544  9089 project.cpp:232] distance:30.4733
+I0507 21:39:14.144554  9089 project.cpp:233] centroid-27.7392 1.6535
+I0507 21:39:14.144585  9089 project.cpp:232] distance:18.7981
+I0507 21:39:14.144593  9089 project.cpp:233] centroid-18.6046 -0.439832
+I0507 21:39:14.144626  9089 project.cpp:232] distance:0.744738
+I0507 21:39:14.144634  9089 project.cpp:233] centroid-0.506892 -0.487694
+I0507 21:39:14.144685  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:14.145675  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:14.149070  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:14.241392  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:14.462852  9089 project.cpp:232] distance:4.06923
+I0507 21:39:14.462884  9089 project.cpp:233] centroid3.24688 -0.906837
+I0507 21:39:14.462930  9089 project.cpp:232] distance:38.4577
+I0507 21:39:14.462939  9089 project.cpp:233] centroid-34.0915 2.08954
+I0507 21:39:14.462967  9089 project.cpp:232] distance:18.3528
+I0507 21:39:14.462972  9089 project.cpp:233] centroid-18.1272 -0.47492
+I0507 21:39:14.462997  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:14.463786  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:14.469007  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:14.570412  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:14.784632  9089 project.cpp:232] distance:4.8205
+I0507 21:39:14.784659  9089 project.cpp:233] centroid3.49538 -1.15114
+I0507 21:39:14.784713  9089 project.cpp:232] distance:31.8688
+I0507 21:39:14.784720  9089 project.cpp:233] centroid-31.3441 -0.724321
+I0507 21:39:14.784749  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:14.785380  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:14.789821  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:14.891263  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:15.111461  9089 project.cpp:232] distance:7.68626
+I0507 21:39:15.111490  9089 project.cpp:233] centroid4.50413 -1.78385
+I0507 21:39:15.111543  9089 project.cpp:232] distance:30.9051
+I0507 21:39:15.111552  9089 project.cpp:233] centroid-27.2999 1.89873
+I0507 21:39:15.111583  9089 project.cpp:232] distance:6.65589
+I0507 21:39:15.111589  9089 project.cpp:233] centroid-4.84447 -1.34589
+I0507 21:39:15.111618  9089 project.cpp:232] distance:21.0457
+I0507 21:39:15.111624  9089 project.cpp:233] centroid-20.3733 -0.820018
+I0507 21:39:15.111651  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:15.112586  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:15.116870  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:15.216949  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:15.441428  9089 project.cpp:232] distance:8.81534
+I0507 21:39:15.441458  9089 project.cpp:233] centroid4.58238 -2.05742
+I0507 21:39:15.441529  9089 project.cpp:232] distance:1.58698
+I0507 21:39:15.441537  9089 project.cpp:233] centroid-1.42162 -0.406643
+I0507 21:39:15.441583  9089 project.cpp:232] distance:34.5463
+I0507 21:39:15.441591  9089 project.cpp:233] centroid-30.502 2.01104
+I0507 21:39:15.441623  9089 project.cpp:232] distance:28.3348
+I0507 21:39:15.441630  9089 project.cpp:233] centroid-26.1236 -1.48703
+I0507 21:39:15.441673  9089 project.cpp:232] distance:3.19252
+I0507 21:39:15.441681  9089 project.cpp:233] centroid-3.10709 0.292283
+I0507 21:39:15.441709  9089 project.cpp:232] distance:9.90919
+I0507 21:39:15.441716  9089 project.cpp:233] centroid4.66804 -2.28936
+I0507 21:39:15.441745  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:15.442751  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:15.447638  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:15.553089  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:15.790048  9089 project.cpp:232] distance:8.79748
+I0507 21:39:15.790086  9089 project.cpp:233] centroid4.33394 -2.11271
+I0507 21:39:15.790169  9089 project.cpp:232] distance:0.73996
+I0507 21:39:15.790177  9089 project.cpp:233] centroid-0.686706 -0.230767
+I0507 21:39:15.790207  9089 project.cpp:232] distance:24.1752
+I0507 21:39:15.790213  9089 project.cpp:233] centroid-22.0909 1.4437
+I0507 21:39:15.790241  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:15.791229  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:15.795754  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:15.906306  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:16.139891  9089 project.cpp:232] distance:8.68081
+I0507 21:39:16.139921  9089 project.cpp:233] centroid4.51855 -2.04016
+I0507 21:39:16.140018  9089 project.cpp:232] distance:28.934
+I0507 21:39:16.140027  9089 project.cpp:233] centroid-26.4016 1.59137
+I0507 21:39:16.140060  9089 project.cpp:232] distance:1.5975
+I0507 21:39:16.140066  9089 project.cpp:233] centroid-1.39636 -0.448492
+I0507 21:39:16.140095  9089 project.cpp:232] distance:3.54683
+I0507 21:39:16.140101  9089 project.cpp:233] centroid2.32367 -1.10596
+I0507 21:39:16.140127  9089 project.cpp:232] distance:3.60715
+I0507 21:39:16.140133  9089 project.cpp:233] centroid-2.5233 1.04108
+I0507 21:39:16.140166  9089 project.cpp:232] distance:9.67076
+I0507 21:39:16.140174  9089 project.cpp:233] centroid3.55933 -2.47213
+I0507 21:39:16.140218  9089 project.cpp:232] distance:4.39087
+I0507 21:39:16.140228  9089 project.cpp:233] centroid3.6197 -0.878164
+I0507 21:39:16.140266  9089 project.cpp:232] distance:11.6848
+I0507 21:39:16.140276  9089 project.cpp:233] centroid-9.12026 -1.60142
+I0507 21:39:16.140322  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:16.141419  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:16.144762  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:16.240141  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:16.474787  9089 project.cpp:232] distance:1.18005
+I0507 21:39:16.474822  9089 project.cpp:233] centroid-1.01655 -0.404342
+I0507 21:39:16.474869  9089 project.cpp:232] distance:28.5637
+I0507 21:39:16.474877  9089 project.cpp:233] centroid-26.1509 1.55331
+I0507 21:39:16.474910  9089 project.cpp:232] distance:1.08675
+I0507 21:39:16.474915  9089 project.cpp:233] centroid1.02281 -0.252862
+I0507 21:39:16.474941  9089 project.cpp:232] distance:22.6805
+I0507 21:39:16.474948  9089 project.cpp:233] centroid-21.0911 -1.26071
+I0507 21:39:16.475008  9089 project.cpp:232] distance:12.4564
+I0507 21:39:16.475018  9089 project.cpp:233] centroid5.48973 -2.63945
+I0507 21:39:16.475056  9089 project.cpp:232] distance:4.15866
+I0507 21:39:16.475064  9089 project.cpp:233] centroid3.50973 -0.805558
+I0507 21:39:16.475090  9089 project.cpp:232] distance:10.6117
+I0507 21:39:16.475095  9089 project.cpp:233] centroid4.48693 -2.47482
+I0507 21:39:16.475124  9089 project.cpp:232] distance:11.7861
+I0507 21:39:16.475131  9089 project.cpp:233] centroid-8.75681 -1.74049
+I0507 21:39:16.475162  9089 project.cpp:232] distance:0.813221
+I0507 21:39:16.475167  9089 project.cpp:233] centroid-0.613459 -0.446947
+I0507 21:39:16.475195  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:16.476286  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:16.480726  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:16.583854  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:16.809612  9089 project.cpp:232] distance:2.62337
+I0507 21:39:16.809643  9089 project.cpp:233] centroid-1.64181 -0.990739
+I0507 21:39:16.809692  9089 project.cpp:232] distance:3.28995
+I0507 21:39:16.809705  9089 project.cpp:233] centroid-2.33317 -0.97815
+I0507 21:39:16.809746  9089 project.cpp:232] distance:27.0315
+I0507 21:39:16.809756  9089 project.cpp:233] centroid8.45051 -4.31057
+I0507 21:39:16.809792  9089 project.cpp:232] distance:14.6975
+I0507 21:39:16.809800  9089 project.cpp:233] centroid-13.7026 -0.997436
+I0507 21:39:16.809829  9089 project.cpp:232] distance:19.4816
+I0507 21:39:16.809836  9089 project.cpp:233] centroid-18.5871 0.945828
+I0507 21:39:16.809866  9089 project.cpp:232] distance:4.18566
+I0507 21:39:16.809876  9089 project.cpp:233] centroid3.26163 -0.961267
+I0507 21:39:16.809918  9089 project.cpp:232] distance:2.22326
+I0507 21:39:16.809926  9089 project.cpp:233] centroid1.49863 -0.851254
+I0507 21:39:16.809986  9089 project.cpp:232] distance:1.86819
+I0507 21:39:16.809996  9089 project.cpp:233] centroid1.35713 0.714886
+I0507 21:39:16.810072  9089 project.cpp:232] distance:8.28952
+I0507 21:39:16.810083  9089 project.cpp:233] centroid4.66154 -1.90472
+I0507 21:39:16.810137  9089 project.cpp:232] distance:7.13987
+I0507 21:39:16.810146  9089 project.cpp:233] centroid5.40701 -1.31638
+I0507 21:39:16.810184  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:16.811215  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:16.816646  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:16.916955  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:17.140796  9089 project.cpp:232] distance:16.4491
+I0507 21:39:17.140836  9089 project.cpp:233] centroid-15.8217 0.79207
+I0507 21:39:17.140897  9089 project.cpp:232] distance:1.74097
+I0507 21:39:17.140902  9089 project.cpp:233] centroid-1.32557 -0.644515
+I0507 21:39:17.140933  9089 project.cpp:232] distance:11.2365
+I0507 21:39:17.140938  9089 project.cpp:233] centroid-10.5108 -0.851906
+I0507 21:39:17.140967  9089 project.cpp:232] distance:6.3921
+I0507 21:39:17.140972  9089 project.cpp:233] centroid4.14657 -1.49851
+I0507 21:39:17.141005  9089 project.cpp:232] distance:0.576251
+I0507 21:39:17.141012  9089 project.cpp:233] centroid0.54153 0.186335
+I0507 21:39:17.141093  9089 project.cpp:232] distance:7.60316
+I0507 21:39:17.141101  9089 project.cpp:233] centroid3.96849 -1.90648
+I0507 21:39:17.141136  9089 project.cpp:232] distance:7.67626
+I0507 21:39:17.141144  9089 project.cpp:233] centroid3.3144 -2.08851
+I0507 21:39:17.141182  9089 project.cpp:232] distance:29.0702
+I0507 21:39:17.141189  9089 project.cpp:233] centroid8.41571 -4.54472
+I0507 21:39:17.141228  9089 project.cpp:232] distance:3.93815
+I0507 21:39:17.141234  9089 project.cpp:233] centroid3.30252 -0.797265
+I0507 21:39:17.141263  9089 project.cpp:232] distance:0.881351
+I0507 21:39:17.141269  9089 project.cpp:233] centroid0.731032 -0.387711
+I0507 21:39:17.141314  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:17.142426  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:17.146066  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:17.252104  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:17.474400  9089 project.cpp:232] distance:1.54009
+I0507 21:39:17.474427  9089 project.cpp:233] centroid-1.19795 -0.584927
+I0507 21:39:17.474469  9089 project.cpp:232] distance:18.6515
+I0507 21:39:17.474475  9089 project.cpp:233] centroid-17.9269 0.851244
+I0507 21:39:17.474504  9089 project.cpp:232] distance:1.93344
+I0507 21:39:17.474509  9089 project.cpp:233] centroid1.26165 -0.819631
+I0507 21:39:17.474542  9089 project.cpp:232] distance:6.37426
+I0507 21:39:17.474550  9089 project.cpp:233] centroid4.14622 -1.49266
+I0507 21:39:17.474582  9089 project.cpp:232] distance:2.26187
+I0507 21:39:17.474589  9089 project.cpp:233] centroid1.53488 0.852641
+I0507 21:39:17.474619  9089 project.cpp:232] distance:8.40194
+I0507 21:39:17.474624  9089 project.cpp:233] centroid-7.92036 -0.693959
+I0507 21:39:17.474649  9089 project.cpp:232] distance:11.4624
+I0507 21:39:17.474654  9089 project.cpp:233] centroid5.10801 -2.52079
+I0507 21:39:17.474684  9089 project.cpp:232] distance:1.91009
+I0507 21:39:17.474689  9089 project.cpp:233] centroid1.37265 -0.7331
+I0507 21:39:17.474718  9089 project.cpp:232] distance:5.6118
+I0507 21:39:17.474722  9089 project.cpp:233] centroid4.43495 -1.08483
+I0507 21:39:17.474750  9089 project.cpp:232] distance:32.5854
+I0507 21:39:17.474756  9089 project.cpp:233] centroid9.03187 -4.8532
+I0507 21:39:17.474789  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:17.475627  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:17.479667  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:17.582026  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:17.808689  9089 project.cpp:232] distance:3.95766
+I0507 21:39:17.808720  9089 project.cpp:233] centroid-2.55066 -1.18617
+I0507 21:39:17.808780  9089 project.cpp:232] distance:3.10466
+I0507 21:39:17.808789  9089 project.cpp:233] centroid1.92637 1.08549
+I0507 21:39:17.808823  9089 project.cpp:232] distance:19.8007
+I0507 21:39:17.808833  9089 project.cpp:233] centroid-19.3271 0.68814
+I0507 21:39:17.808873  9089 project.cpp:232] distance:20.1852
+I0507 21:39:17.808882  9089 project.cpp:233] centroid5.39742 -3.8455
+I0507 21:39:17.808928  9089 project.cpp:232] distance:5.53433
+I0507 21:39:17.808934  9089 project.cpp:233] centroid4.00984 -1.2347
+I0507 21:39:17.808965  9089 project.cpp:232] distance:11.5308
+I0507 21:39:17.808972  9089 project.cpp:233] centroid5.18625 -2.51884
+I0507 21:39:17.809003  9089 project.cpp:232] distance:15.1477
+I0507 21:39:17.809008  9089 project.cpp:233] centroid5.01845 -3.18264
+I0507 21:39:17.809042  9089 project.cpp:232] distance:5.28093
+I0507 21:39:17.809047  9089 project.cpp:233] centroid4.70725 0.757412
+I0507 21:39:17.809077  9089 project.cpp:232] distance:5.32818
+I0507 21:39:17.809082  9089 project.cpp:233] centroid2.61081 1.64845
+I0507 21:39:17.809113  9089 project.cpp:232] distance:3.68231
+I0507 21:39:17.809118  9089 project.cpp:233] centroid-3.05426 -0.792497
+I0507 21:39:17.809151  9089 project.cpp:232] distance:4.50304
+I0507 21:39:17.809165  9089 project.cpp:233] centroid2.31259 -1.48002
+I0507 21:39:17.809242  9089 project.cpp:232] distance:5.0112
+I0507 21:39:17.809259  9089 project.cpp:233] centroid4.07199 -0.969128
+I0507 21:39:17.809299  9089 project.cpp:232] distance:1.51135
+I0507 21:39:17.809309  9089 project.cpp:233] centroid-1.50195 0.0969672
+I0507 21:39:17.809348  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:17.810845  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:17.815220  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:17.910185  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:18.136513  9089 project.cpp:232] distance:16.212
+I0507 21:39:18.136546  9089 project.cpp:233] centroid-16.0456 0.407867
+I0507 21:39:18.136586  9089 project.cpp:232] distance:4.30179
+I0507 21:39:18.136593  9089 project.cpp:233] centroid2.31646 -1.40902
+I0507 21:39:18.136628  9089 project.cpp:232] distance:2.51337
+I0507 21:39:18.136636  9089 project.cpp:233] centroid-1.73827 -0.880394
+I0507 21:39:18.136669  9089 project.cpp:232] distance:11.7863
+I0507 21:39:18.136675  9089 project.cpp:233] centroid3.7969 2.82656
+I0507 21:39:18.136705  9089 project.cpp:232] distance:7.50605
+I0507 21:39:18.136709  9089 project.cpp:233] centroid5.04277 -1.56948
+I0507 21:39:18.136739  9089 project.cpp:232] distance:8.45016
+I0507 21:39:18.136744  9089 project.cpp:233] centroid4.28026 -2.04203
+I0507 21:39:18.136780  9089 project.cpp:232] distance:6.938
+I0507 21:39:18.136785  9089 project.cpp:233] centroid3.22851 1.926
+I0507 21:39:18.136816  9089 project.cpp:232] distance:30.1323
+I0507 21:39:18.136822  9089 project.cpp:233] centroid6.38632 -4.87298
+I0507 21:39:18.136857  9089 project.cpp:232] distance:3.48508
+I0507 21:39:18.136862  9089 project.cpp:233] centroid3.02536 -0.678025
+I0507 21:39:18.136888  9089 project.cpp:232] distance:17.6912
+I0507 21:39:18.136893  9089 project.cpp:233] centroid14.7451 1.71643
+I0507 21:39:18.136919  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:18.138100  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:18.143441  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:18.243939  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:18.463233  9089 project.cpp:232] distance:4.59964
+I0507 21:39:18.463263  9089 project.cpp:233] centroid2.34052 1.50304
+I0507 21:39:18.463310  9089 project.cpp:232] distance:1.28473
+I0507 21:39:18.463320  9089 project.cpp:233] centroid1.06896 0.464503
+I0507 21:39:18.463359  9089 project.cpp:232] distance:16.3427
+I0507 21:39:18.463367  9089 project.cpp:233] centroid4.98964 -3.36943
+I0507 21:39:18.463403  9089 project.cpp:232] distance:7.37472
+I0507 21:39:18.463409  9089 project.cpp:233] centroid4.57857 -1.67217
+I0507 21:39:18.463441  9089 project.cpp:232] distance:18.7188
+I0507 21:39:18.463450  9089 project.cpp:233] centroid-18.6702 0.220263
+I0507 21:39:18.463479  9089 project.cpp:232] distance:8.2004
+I0507 21:39:18.463485  9089 project.cpp:233] centroid7.49782 0.838196
+I0507 21:39:18.463515  9089 project.cpp:232] distance:4.02114
+I0507 21:39:18.463521  9089 project.cpp:233] centroid1.96302 -1.43462
+I0507 21:39:18.463546  9089 project.cpp:232] distance:63.3714
+I0507 21:39:18.463551  9089 project.cpp:233] centroid9.11749 -7.36573
+I0507 21:39:18.463579  9089 project.cpp:232] distance:7.58748
+I0507 21:39:18.463584  9089 project.cpp:233] centroid3.77779 -1.95184
+I0507 21:39:18.463611  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:18.464556  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:18.467837  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:18.557452  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:18.785630  9089 project.cpp:232] distance:8.41597
+I0507 21:39:18.785665  9089 project.cpp:233] centroid4.90246 -1.87444
+I0507 21:39:18.785713  9089 project.cpp:232] distance:0.72507
+I0507 21:39:18.785720  9089 project.cpp:233] centroid0.672827 0.228567
+I0507 21:39:18.785754  9089 project.cpp:232] distance:2.39775
+I0507 21:39:18.785799  9089 project.cpp:233] centroid1.61062 0.887201
+I0507 21:39:18.785835  9089 project.cpp:232] distance:15.6675
+I0507 21:39:18.785845  9089 project.cpp:233] centroid4.89642 -3.28193
+I0507 21:39:18.785881  9089 project.cpp:232] distance:16.741
+I0507 21:39:18.785889  9089 project.cpp:233] centroid-16.6966 0.210611
+I0507 21:39:18.785924  9089 project.cpp:232] distance:28.4133
+I0507 21:39:18.785931  9089 project.cpp:233] centroid5.86001 -4.74903
+I0507 21:39:18.785957  9089 project.cpp:232] distance:6.01787
+I0507 21:39:18.785962  9089 project.cpp:233] centroid5.58129 0.660738
+I0507 21:39:18.785989  9089 project.cpp:232] distance:6.16009
+I0507 21:39:18.785995  9089 project.cpp:233] centroid3.26836 -1.70051
+I0507 21:39:18.786023  9089 project.cpp:232] distance:1.95107
+I0507 21:39:18.786029  9089 project.cpp:233] centroid-1.58931 -0.601459
+I0507 21:39:18.786060  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:18.787005  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:18.790988  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:18.894277  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:19.111688  9089 project.cpp:232] distance:7.67128
+I0507 21:39:19.111717  9089 project.cpp:233] centroid4.6181 -1.74733
+I0507 21:39:19.111779  9089 project.cpp:232] distance:1.24865
+I0507 21:39:19.111788  9089 project.cpp:233] centroid1.05378 0.44144
+I0507 21:39:19.111829  9089 project.cpp:232] distance:15.3317
+I0507 21:39:19.111837  9089 project.cpp:233] centroid4.80889 -3.24389
+I0507 21:39:19.111886  9089 project.cpp:232] distance:1.60107
+I0507 21:39:19.111893  9089 project.cpp:233] centroid1.2079 0.627034
+I0507 21:39:19.111922  9089 project.cpp:232] distance:19.6811
+I0507 21:39:19.111940  9089 project.cpp:233] centroid-19.6805 -0.024292
+I0507 21:39:19.111975  9089 project.cpp:232] distance:2.3066
+I0507 21:39:19.111981  9089 project.cpp:233] centroid-1.81663 -0.699981
+I0507 21:39:19.112013  9089 project.cpp:232] distance:17.6261
+I0507 21:39:19.112020  9089 project.cpp:233] centroid4.48116 -3.62559
+I0507 21:39:19.112047  9089 project.cpp:232] distance:5.02568
+I0507 21:39:19.112052  9089 project.cpp:233] centroid4.8532 0.415305
+I0507 21:39:19.112085  9089 project.cpp:232] distance:13.4739
+I0507 21:39:19.112092  9089 project.cpp:233] centroid5.39569 -2.84222
+I0507 21:39:19.112119  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:19.113137  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:19.117565  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:19.214458  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:19.437798  9089 project.cpp:232] distance:0.308333
+I0507 21:39:19.437827  9089 project.cpp:233] centroid0.306686 -0.0405912
+I0507 21:39:19.437876  9089 project.cpp:232] distance:3.0679
+I0507 21:39:19.437885  9089 project.cpp:233] centroid2.07474 0.996577
+I0507 21:39:19.437923  9089 project.cpp:232] distance:6.34802
+I0507 21:39:19.437929  9089 project.cpp:233] centroid4.15131 -1.48213
+I0507 21:39:19.437966  9089 project.cpp:232] distance:12.1884
+I0507 21:39:19.437973  9089 project.cpp:233] centroid4.15986 -2.83346
+I0507 21:39:19.438006  9089 project.cpp:232] distance:14.2894
+I0507 21:39:19.438012  9089 project.cpp:233] centroid-14.2883 0.0344722
+I0507 21:39:19.438042  9089 project.cpp:232] distance:3.72756
+I0507 21:39:19.438046  9089 project.cpp:233] centroid-2.70807 -1.0097
+I0507 21:39:19.438082  9089 project.cpp:232] distance:8.34022
+I0507 21:39:19.438094  9089 project.cpp:233] centroid4.13168 -2.05147
+I0507 21:39:19.438134  9089 project.cpp:232] distance:14.3359
+I0507 21:39:19.438143  9089 project.cpp:233] centroid4.02703 -3.21074
+I0507 21:39:19.438174  9089 project.cpp:232] distance:6.83207
+I0507 21:39:19.438179  9089 project.cpp:233] centroid5.32523 -1.22753
+I0507 21:39:19.438220  9089 project.cpp:232] distance:4.91599
+I0507 21:39:19.438226  9089 project.cpp:233] centroid4.74585 0.412475
+I0507 21:39:19.438264  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:19.440135  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:19.446885  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:19.550431  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:19.774504  9089 project.cpp:232] distance:2.09972
+I0507 21:39:19.774549  9089 project.cpp:233] centroid1.56926 0.728331
+I0507 21:39:19.774612  9089 project.cpp:232] distance:6.1999
+I0507 21:39:19.774628  9089 project.cpp:233] centroid4.17406 -1.42332
+I0507 21:39:19.774679  9089 project.cpp:232] distance:11.3199
+I0507 21:39:19.774690  9089 project.cpp:233] centroid3.90068 -2.72382
+I0507 21:39:19.774746  9089 project.cpp:232] distance:3.44324
+I0507 21:39:19.774758  9089 project.cpp:233] centroid-1.47457 -1.40309
+I0507 21:39:19.774807  9089 project.cpp:232] distance:8.56762
+I0507 21:39:19.774821  9089 project.cpp:233] centroid-8.56546 -0.0464571
+I0507 21:39:19.774873  9089 project.cpp:232] distance:6.35265
+I0507 21:39:19.774884  9089 project.cpp:233] centroid-4.73384 -1.27233
+I0507 21:39:19.774950  9089 project.cpp:232] distance:4.49801
+I0507 21:39:19.774960  9089 project.cpp:233] centroid-3.06273 -1.19803
+I0507 21:39:19.775018  9089 project.cpp:232] distance:6.69408
+I0507 21:39:19.775030  9089 project.cpp:233] centroid3.8651 -1.68196
+I0507 21:39:19.775087  9089 project.cpp:232] distance:6.60993
+I0507 21:39:19.775099  9089 project.cpp:233] centroid5.20528 -1.18518
+I0507 21:39:19.775157  9089 project.cpp:232] distance:11.6689
+I0507 21:39:19.775166  9089 project.cpp:233] centroid3.59078 -2.8422
+I0507 21:39:19.775211  9089 project.cpp:232] distance:8.74232
+I0507 21:39:19.775220  9089 project.cpp:233] centroid7.82958 0.955374
+I0507 21:39:19.775271  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:19.776440  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:19.781320  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:19.888432  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:20.130329  9089 project.cpp:232] distance:4.18112
+I0507 21:39:20.130369  9089 project.cpp:233] centroid2.42654 1.32461
+I0507 21:39:20.130421  9089 project.cpp:232] distance:9.42676
+I0507 21:39:20.130437  9089 project.cpp:233] centroid5.65334 -1.94253
+I0507 21:39:20.130481  9089 project.cpp:232] distance:3.60084
+I0507 21:39:20.130496  9089 project.cpp:233] centroid-3.59956 -0.0357129
+I0507 21:39:20.130535  9089 project.cpp:232] distance:16.4341
+I0507 21:39:20.130544  9089 project.cpp:233] centroid4.71463 -3.42338
+I0507 21:39:20.130580  9089 project.cpp:232] distance:3.62143
+I0507 21:39:20.130586  9089 project.cpp:233] centroid-2.48834 -1.06447
+I0507 21:39:20.130623  9089 project.cpp:232] distance:4.18672
+I0507 21:39:20.130632  9089 project.cpp:233] centroid4.08374 0.3209
+I0507 21:39:20.130668  9089 project.cpp:232] distance:29.2936
+I0507 21:39:20.130676  9089 project.cpp:233] centroid8.52493 -4.55727
+I0507 21:39:20.130722  9089 project.cpp:232] distance:0.442327
+I0507 21:39:20.130731  9089 project.cpp:233] centroid0.43026 0.109849
+I0507 21:39:20.130760  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:20.131794  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:20.135747  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:20.231545  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:20.458791  9089 project.cpp:232] distance:4.2473
+I0507 21:39:20.458818  9089 project.cpp:233] centroid2.48603 1.32713
+I0507 21:39:20.458863  9089 project.cpp:232] distance:8.37048
+I0507 21:39:20.458868  9089 project.cpp:233] centroid5.25267 -1.76573
+I0507 21:39:20.458906  9089 project.cpp:232] distance:11.9065
+I0507 21:39:20.458914  9089 project.cpp:233] centroid-11.8548 -0.227289
+I0507 21:39:20.458940  9089 project.cpp:232] distance:1.6758
+I0507 21:39:20.458946  9089 project.cpp:233] centroid1.66121 -0.120789
+I0507 21:39:20.458973  9089 project.cpp:232] distance:3.97155
+I0507 21:39:20.458979  9089 project.cpp:233] centroid-2.67486 -1.13872
+I0507 21:39:20.459013  9089 project.cpp:232] distance:16.8322
+I0507 21:39:20.459049  9089 project.cpp:233] centroid4.77971 -3.47167
+I0507 21:39:20.459087  9089 project.cpp:232] distance:25.6728
+I0507 21:39:20.459093  9089 project.cpp:233] centroid8.15747 -4.18513
+I0507 21:39:20.459125  9089 project.cpp:232] distance:13.463
+I0507 21:39:20.459129  9089 project.cpp:233] centroid11.5578 1.38031
+I0507 21:39:20.459165  9089 project.cpp:232] distance:0.820199
+I0507 21:39:20.459172  9089 project.cpp:233] centroid0.703634 0.341415
+I0507 21:39:20.459201  9089 project.cpp:232] distance:16.1267
+I0507 21:39:20.459208  9089 project.cpp:233] centroid10.3976 -2.39357
+I0507 21:39:20.459239  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:20.460180  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:20.463768  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:20.567775  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:20.792675  9089 project.cpp:232] distance:1.71947
+I0507 21:39:20.792706  9089 project.cpp:233] centroid1.36654 0.594072
+I0507 21:39:20.792752  9089 project.cpp:232] distance:13.4087
+I0507 21:39:20.792758  9089 project.cpp:233] centroid7.41911 -2.44736
+I0507 21:39:20.792798  9089 project.cpp:232] distance:9.62096
+I0507 21:39:20.792805  9089 project.cpp:233] centroid-9.5876 -0.182656
+I0507 21:39:20.792842  9089 project.cpp:232] distance:2.10932
+I0507 21:39:20.792850  9089 project.cpp:233] centroid2.10928 -0.00662183
+I0507 21:39:20.792881  9089 project.cpp:232] distance:17.2267
+I0507 21:39:20.792889  9089 project.cpp:233] centroid6.55227 -3.26718
+I0507 21:39:20.792940  9089 project.cpp:232] distance:16.4943
+I0507 21:39:20.792948  9089 project.cpp:233] centroid4.65562 -3.44075
+I0507 21:39:20.792989  9089 project.cpp:232] distance:4.47422
+I0507 21:39:20.792997  9089 project.cpp:233] centroid-2.92463 -1.24482
+I0507 21:39:20.793045  9089 project.cpp:232] distance:15.9733
+I0507 21:39:20.793052  9089 project.cpp:233] centroid10.3289 -2.37581
+I0507 21:39:20.793087  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:20.794572  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:20.799623  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:20.899704  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:21.124541  9089 project.cpp:232] distance:0.969801
+I0507 21:39:21.124576  9089 project.cpp:233] centroid0.892287 0.278414
+I0507 21:39:21.124624  9089 project.cpp:232] distance:11.4451
+I0507 21:39:21.124632  9089 project.cpp:233] centroid6.49759 -2.22431
+I0507 21:39:21.124665  9089 project.cpp:232] distance:2.24086
+I0507 21:39:21.124670  9089 project.cpp:233] centroid2.2009 0.199884
+I0507 21:39:21.124699  9089 project.cpp:232] distance:0.390312
+I0507 21:39:21.124704  9089 project.cpp:233] centroid0.20357 -0.432136
+I0507 21:39:21.124738  9089 project.cpp:232] distance:16.7932
+I0507 21:39:21.124745  9089 project.cpp:233] centroid4.76335 -3.46841
+I0507 21:39:21.124789  9089 project.cpp:232] distance:5.0261
+I0507 21:39:21.124799  9089 project.cpp:233] centroid-3.20608 -1.34908
+I0507 21:39:21.124840  9089 project.cpp:232] distance:15.3481
+I0507 21:39:21.124845  9089 project.cpp:233] centroid6.086 -3.04337
+I0507 21:39:21.124889  9089 project.cpp:232] distance:16.0325
+I0507 21:39:21.124897  9089 project.cpp:233] centroid10.2461 -2.40549
+I0507 21:39:21.124930  9089 project.cpp:232] distance:1.35872
+I0507 21:39:21.124936  9089 project.cpp:233] centroid-0.692985 -0.815926
+I0507 21:39:21.124975  9089 project.cpp:232] distance:2.71085
+I0507 21:39:21.124981  9089 project.cpp:233] centroid2.31253 0.631122
+I0507 21:39:21.125013  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:21.126163  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:21.130414  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:21.230808  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:21.457355  9089 project.cpp:232] distance:1.25833
+I0507 21:39:21.457382  9089 project.cpp:233] centroid1.08396 0.417578
+I0507 21:39:21.457461  9089 project.cpp:232] distance:16.1635
+I0507 21:39:21.457469  9089 project.cpp:233] centroid7.33266 -2.97168
+I0507 21:39:21.457506  9089 project.cpp:232] distance:16.0808
+I0507 21:39:21.457512  9089 project.cpp:233] centroid5.12453 -3.31003
+I0507 21:39:21.457549  9089 project.cpp:232] distance:3.71138
+I0507 21:39:21.457556  9089 project.cpp:233] centroid3.59507 0.34105
+I0507 21:39:21.457583  9089 project.cpp:232] distance:7.51861
+I0507 21:39:21.457588  9089 project.cpp:233] centroid7.43573 0.287902
+I0507 21:39:21.457612  9089 project.cpp:232] distance:12.8373
+I0507 21:39:21.457618  9089 project.cpp:233] centroid8.73024 -2.02658
+I0507 21:39:21.457665  9089 project.cpp:232] distance:4.92647
+I0507 21:39:21.457671  9089 project.cpp:233] centroid3.7974 1.06258
+I0507 21:39:21.457706  9089 project.cpp:232] distance:2.65759
+I0507 21:39:21.457712  9089 project.cpp:233] centroid-1.92088 -0.858322
+I0507 21:39:21.457741  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:21.458644  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:21.462657  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:21.569248  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:21.796330  9089 project.cpp:232] distance:1.45699
+I0507 21:39:21.796370  9089 project.cpp:233] centroid1.23168 0.474671
+I0507 21:39:21.796427  9089 project.cpp:232] distance:14.5167
+I0507 21:39:21.796435  9089 project.cpp:233] centroid6.78064 -2.78138
+I0507 21:39:21.796469  9089 project.cpp:232] distance:5.30995
+I0507 21:39:21.796475  9089 project.cpp:233] centroid5.25079 0.243226
+I0507 21:39:21.796504  9089 project.cpp:232] distance:3.19365
+I0507 21:39:21.796510  9089 project.cpp:233] centroid3.13575 0.240623
+I0507 21:39:21.796543  9089 project.cpp:232] distance:13.8589
+I0507 21:39:21.796550  9089 project.cpp:233] centroid4.65442 -3.0339
+I0507 21:39:21.796586  9089 project.cpp:232] distance:14.2999
+I0507 21:39:21.796592  9089 project.cpp:233] centroid9.41914 -2.20925
+I0507 21:39:21.796639  9089 project.cpp:232] distance:2.9327
+I0507 21:39:21.796651  9089 project.cpp:233] centroid-2.08748 -0.919356
+I0507 21:39:21.796691  9089 project.cpp:232] distance:5.8284
+I0507 21:39:21.796697  9089 project.cpp:233] centroid4.31991 1.22821
+I0507 21:39:21.796730  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:21.797652  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:21.801247  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:21.896281  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:22.128089  9089 project.cpp:232] distance:1.7047
+I0507 21:39:22.128116  9089 project.cpp:233] centroid1.36494 0.582885
+I0507 21:39:22.128162  9089 project.cpp:232] distance:15.8255
+I0507 21:39:22.128170  9089 project.cpp:233] centroid7.20666 -2.93578
+I0507 21:39:22.128211  9089 project.cpp:232] distance:5.78719
+I0507 21:39:22.128217  9089 project.cpp:233] centroid5.71871 0.26169
+I0507 21:39:22.128247  9089 project.cpp:232] distance:2.71572
+I0507 21:39:22.128252  9089 project.cpp:233] centroid2.69039 0.159154
+I0507 21:39:22.128293  9089 project.cpp:232] distance:14.7121
+I0507 21:39:22.128309  9089 project.cpp:233] centroid4.8228 -3.14473
+I0507 21:39:22.128346  9089 project.cpp:232] distance:16.4762
+I0507 21:39:22.128355  9089 project.cpp:233] centroid10.4696 -2.45084
+I0507 21:39:22.128393  9089 project.cpp:232] distance:3.44306
+I0507 21:39:22.128399  9089 project.cpp:233] centroid-2.37934 -1.03137
+I0507 21:39:22.128434  9089 project.cpp:232] distance:6.0178
+I0507 21:39:22.128440  9089 project.cpp:233] centroid4.42505 1.26204
+I0507 21:39:22.128473  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:22.129158  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:22.133587  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:22.233124  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:22.456849  9089 project.cpp:232] distance:1.51445
+I0507 21:39:22.456899  9089 project.cpp:233] centroid1.25793 0.506475
+I0507 21:39:22.456950  9089 project.cpp:232] distance:16.1257
+I0507 21:39:22.456961  9089 project.cpp:233] centroid7.3059 -2.96981
+I0507 21:39:22.457015  9089 project.cpp:232] distance:7.42897
+I0507 21:39:22.457027  9089 project.cpp:233] centroid7.33908 0.299814
+I0507 21:39:22.457067  9089 project.cpp:232] distance:3.32926
+I0507 21:39:22.457079  9089 project.cpp:233] centroid3.25911 0.264856
+I0507 21:39:22.457127  9089 project.cpp:232] distance:13.8823
+I0507 21:39:22.457140  9089 project.cpp:233] centroid4.68275 -3.03308
+I0507 21:39:22.457203  9089 project.cpp:232] distance:16.435
+I0507 21:39:22.457216  9089 project.cpp:233] centroid10.4483 -2.44678
+I0507 21:39:22.457276  9089 project.cpp:232] distance:3.48357
+I0507 21:39:22.457288  9089 project.cpp:233] centroid-2.40292 -1.03955
+I0507 21:39:22.457343  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:22.458635  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:22.462553  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:22.570570  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:22.799717  9089 project.cpp:232] distance:1.71902
+I0507 21:39:22.799746  9089 project.cpp:233] centroid1.37138 0.58961
+I0507 21:39:22.799799  9089 project.cpp:232] distance:15.6934
+I0507 21:39:22.799808  9089 project.cpp:233] centroid7.21939 -2.91101
+I0507 21:39:22.799844  9089 project.cpp:232] distance:3.40783
+I0507 21:39:22.799849  9089 project.cpp:233] centroid3.333 0.273553
+I0507 21:39:22.799880  9089 project.cpp:232] distance:10.5261
+I0507 21:39:22.799885  9089 project.cpp:233] centroid10.3514 0.418063
+I0507 21:39:22.799917  9089 project.cpp:232] distance:14.1178
+I0507 21:39:22.799924  9089 project.cpp:233] centroid4.72848 -3.06421
+I0507 21:39:22.799968  9089 project.cpp:232] distance:16.7056
+I0507 21:39:22.799974  9089 project.cpp:233] centroid10.5435 -2.48237
+I0507 21:39:22.800012  9089 project.cpp:232] distance:3.30708
+I0507 21:39:22.800019  9089 project.cpp:233] centroid-2.29706 -1.005
+I0507 21:39:22.800055  9089 project.cpp:232] distance:6.92468
+I0507 21:39:22.800060  9089 project.cpp:233] centroid4.93111 1.41194
+I0507 21:39:22.800093  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:22.801275  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:22.804879  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:22.897624  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:23.132608  9089 project.cpp:232] distance:2.1036
+I0507 21:39:23.132652  9089 project.cpp:233] centroid1.59519 0.71303
+I0507 21:39:23.132700  9089 project.cpp:232] distance:20.0776
+I0507 21:39:23.132707  9089 project.cpp:233] centroid8.14378 -3.45453
+I0507 21:39:23.132745  9089 project.cpp:232] distance:10.751
+I0507 21:39:23.132751  9089 project.cpp:233] centroid10.6504 0.317173
+I0507 21:39:23.132787  9089 project.cpp:232] distance:18.527
+I0507 21:39:23.132795  9089 project.cpp:233] centroid5.47427 -3.61285
+I0507 21:39:23.132841  9089 project.cpp:232] distance:2.86794
+I0507 21:39:23.132848  9089 project.cpp:233] centroid2.83511 0.181198
+I0507 21:39:23.132877  9089 project.cpp:232] distance:14.8281
+I0507 21:39:23.132884  9089 project.cpp:233] centroid9.69792 -2.26498
+I0507 21:39:23.132920  9089 project.cpp:232] distance:6.80596
+I0507 21:39:23.132926  9089 project.cpp:233] centroid4.84576 1.40007
+I0507 21:39:23.132961  9089 project.cpp:232] distance:3.4948
+I0507 21:39:23.132967  9089 project.cpp:233] centroid-2.40671 -1.04312
+I0507 21:39:23.132998  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:23.133947  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:23.138613  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:23.240236  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:23.465095  9089 project.cpp:232] distance:1.74882
+I0507 21:39:23.465139  9089 project.cpp:233] centroid1.40712 0.584552
+I0507 21:39:23.465241  9089 project.cpp:232] distance:18.8916
+I0507 21:39:23.465253  9089 project.cpp:233] centroid8.14289 -3.27853
+I0507 21:39:23.465291  9089 project.cpp:232] distance:9.8974
+I0507 21:39:23.465296  9089 project.cpp:233] centroid9.79633 0.317913
+I0507 21:39:23.465327  9089 project.cpp:232] distance:22.5583
+I0507 21:39:23.465333  9089 project.cpp:233] centroid5.36647 -4.1463
+I0507 21:39:23.465364  9089 project.cpp:232] distance:15.165
+I0507 21:39:23.465371  9089 project.cpp:233] centroid9.86203 -2.30283
+I0507 21:39:23.465407  9089 project.cpp:232] distance:2.15666
+I0507 21:39:23.465413  9089 project.cpp:233] centroid2.15299 0.060606
+I0507 21:39:23.465442  9089 project.cpp:232] distance:14.4296
+I0507 21:39:23.465449  9089 project.cpp:233] centroid5.19401 -3.03901
+I0507 21:39:23.465482  9089 project.cpp:232] distance:7.79349
+I0507 21:39:23.465488  9089 project.cpp:233] centroid5.37036 1.55664
+I0507 21:39:23.465533  9089 project.cpp:232] distance:2.65993
+I0507 21:39:23.465538  9089 project.cpp:233] centroid-1.92335 -0.85824
+I0507 21:39:23.465569  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:23.466511  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:23.470551  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:23.562299  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:23.788381  9089 project.cpp:232] distance:2.28917
+I0507 21:39:23.788406  9089 project.cpp:233] centroid1.68304 0.778542
+I0507 21:39:23.788453  9089 project.cpp:232] distance:19.1091
+I0507 21:39:23.788460  9089 project.cpp:233] centroid8.21619 -3.30044
+I0507 21:39:23.788496  9089 project.cpp:232] distance:11.9507
+I0507 21:39:23.788502  9089 project.cpp:233] centroid11.8225 0.357972
+I0507 21:39:23.788532  9089 project.cpp:232] distance:22.0311
+I0507 21:39:23.788538  9089 project.cpp:233] centroid5.32393 -4.08745
+I0507 21:39:23.788569  9089 project.cpp:232] distance:14.9823
+I0507 21:39:23.788575  9089 project.cpp:233] centroid9.78124 -2.28058
+I0507 21:39:23.788611  9089 project.cpp:232] distance:3.99147
+I0507 21:39:23.788617  9089 project.cpp:233] centroid3.8174 0.417212
+I0507 21:39:23.788663  9089 project.cpp:232] distance:16.3676
+I0507 21:39:23.788669  9089 project.cpp:233] centroid5.64095 -3.27516
+I0507 21:39:23.788702  9089 project.cpp:232] distance:7.28756
+I0507 21:39:23.788707  9089 project.cpp:233] centroid5.11974 1.47235
+I0507 21:39:23.788743  9089 project.cpp:232] distance:1.85956
+I0507 21:39:23.788748  9089 project.cpp:233] centroid-1.43471 -0.651808
+I0507 21:39:23.788780  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:23.789855  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:23.794478  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:23.896188  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:24.122385  9089 project.cpp:232] distance:2.4313
+I0507 21:39:24.122433  9089 project.cpp:233] centroid1.76868 0.814014
+I0507 21:39:24.122481  9089 project.cpp:232] distance:19.1477
+I0507 21:39:24.122489  9089 project.cpp:233] centroid8.24253 -3.3023
+I0507 21:39:24.122525  9089 project.cpp:232] distance:15.026
+I0507 21:39:24.122531  9089 project.cpp:233] centroid14.8334 0.438856
+I0507 21:39:24.122565  9089 project.cpp:232] distance:21.4034
+I0507 21:39:24.122570  9089 project.cpp:233] centroid5.23116 -4.02147
+I0507 21:39:24.122598  9089 project.cpp:232] distance:2.60935
+I0507 21:39:24.122603  9089 project.cpp:233] centroid2.58964 0.140407
+I0507 21:39:24.122632  9089 project.cpp:232] distance:15.2037
+I0507 21:39:24.122638  9089 project.cpp:233] centroid9.92588 -2.29736
+I0507 21:39:24.122674  9089 project.cpp:232] distance:16.1166
+I0507 21:39:24.122681  9089 project.cpp:233] centroid5.58704 -3.24493
+I0507 21:39:24.122725  9089 project.cpp:232] distance:7.66903
+I0507 21:39:24.122731  9089 project.cpp:233] centroid5.32887 1.52976
+I0507 21:39:24.122766  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:24.124163  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:24.127779  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:24.238191  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:24.462035  9089 project.cpp:232] distance:2.18249
+I0507 21:39:24.462065  9089 project.cpp:233] centroid1.63555 0.739554
+I0507 21:39:24.462126  9089 project.cpp:232] distance:18.6518
+I0507 21:39:24.462136  9089 project.cpp:233] centroid8.13749 -3.24257
+I0507 21:39:24.462179  9089 project.cpp:232] distance:13.4808
+I0507 21:39:24.462188  9089 project.cpp:233] centroid13.3421 0.372376
+I0507 21:39:24.462222  9089 project.cpp:232] distance:3.88279
+I0507 21:39:24.462229  9089 project.cpp:233] centroid3.71735 0.406741
+I0507 21:39:24.462262  9089 project.cpp:232] distance:20.7761
+I0507 21:39:24.462270  9089 project.cpp:233] centroid5.13853 -3.95444
+I0507 21:39:24.462303  9089 project.cpp:232] distance:16.551
+I0507 21:39:24.462311  9089 project.cpp:233] centroid5.66221 -3.29981
+I0507 21:39:24.462347  9089 project.cpp:232] distance:16.6558
+I0507 21:39:24.462355  9089 project.cpp:233] centroid10.5543 -2.47011
+I0507 21:39:24.462392  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:24.463228  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:24.466527  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:24.559562  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:24.784893  9089 project.cpp:232] distance:2.02819
+I0507 21:39:24.784924  9089 project.cpp:233] centroid1.5385 0.699777
+I0507 21:39:24.784970  9089 project.cpp:232] distance:18.9288
+I0507 21:39:24.784978  9089 project.cpp:233] centroid7.89534 -3.32166
+I0507 21:39:24.785017  9089 project.cpp:232] distance:13.8862
+I0507 21:39:24.785023  9089 project.cpp:233] centroid13.7788 0.327807
+I0507 21:39:24.785053  9089 project.cpp:232] distance:4.81203
+I0507 21:39:24.785059  9089 project.cpp:233] centroid4.47127 0.583748
+I0507 21:39:24.785101  9089 project.cpp:232] distance:19.7095
+I0507 21:39:24.785109  9089 project.cpp:233] centroid5.69585 -3.74349
+I0507 21:39:24.785153  9089 project.cpp:232] distance:17.1451
+I0507 21:39:24.785161  9089 project.cpp:233] centroid10.7466 -2.52952
+I0507 21:39:24.785192  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:24.786149  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:24.791625  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:24.920020  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:25.149928  9089 project.cpp:232] distance:2.57179
+I0507 21:39:25.149958  9089 project.cpp:233] centroid1.79888 0.879152
+I0507 21:39:25.150003  9089 project.cpp:232] distance:19.3962
+I0507 21:39:25.150012  9089 project.cpp:233] centroid8.39824 -3.31632
+I0507 21:39:25.150048  9089 project.cpp:232] distance:17.6627
+I0507 21:39:25.150055  9089 project.cpp:233] centroid17.3837 0.52822
+I0507 21:39:25.150084  9089 project.cpp:232] distance:17.6181
+I0507 21:39:25.150092  9089 project.cpp:233] centroid4.70864 -3.59297
+I0507 21:39:25.150130  9089 project.cpp:232] distance:6.00726
+I0507 21:39:25.150137  9089 project.cpp:233] centroid5.39716 0.781092
+I0507 21:39:25.150168  9089 project.cpp:232] distance:15.61
+I0507 21:39:25.150175  9089 project.cpp:233] centroid5.46462 -3.18517
+I0507 21:39:25.150208  9089 project.cpp:232] distance:0.666662
+I0507 21:39:25.150214  9089 project.cpp:233] centroid-0.571967 -0.307726
+I0507 21:39:25.150247  9089 project.cpp:232] distance:16.802
+I0507 21:39:25.150254  9089 project.cpp:233] centroid10.6143 -2.48751
+I0507 21:39:25.150286  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:25.151187  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:25.154559  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:25.252290  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:25.482753  9089 project.cpp:232] distance:2.23541
+I0507 21:39:25.482785  9089 project.cpp:233] centroid1.62571 0.780831
+I0507 21:39:25.482862  9089 project.cpp:232] distance:28.6802
+I0507 21:39:25.482913  9089 project.cpp:233] centroid10.4097 -4.27441
+I0507 21:39:25.482967  9089 project.cpp:232] distance:13.0625
+I0507 21:39:25.482978  9089 project.cpp:233] centroid12.9214 0.375561
+I0507 21:39:25.483027  9089 project.cpp:232] distance:16.7123
+I0507 21:39:25.483040  9089 project.cpp:233] centroid4.56174 -3.48576
+I0507 21:39:25.483106  9089 project.cpp:232] distance:8.13804
+I0507 21:39:25.483120  9089 project.cpp:233] centroid6.97664 1.07769
+I0507 21:39:25.483165  9089 project.cpp:232] distance:17.9545
+I0507 21:39:25.483177  9089 project.cpp:233] centroid11.2013 -2.5987
+I0507 21:39:25.483233  9089 project.cpp:232] distance:0.521345
+I0507 21:39:25.483247  9089 project.cpp:233] centroid-0.454712 -0.258134
+I0507 21:39:25.483305  9089 project.cpp:232] distance:8.34052
+I0507 21:39:25.483319  9089 project.cpp:233] centroid5.68464 1.62969
+I0507 21:39:25.483398  9089 project.cpp:232] distance:26.1827
+I0507 21:39:25.483414  9089 project.cpp:233] centroid7.26904 -4.34899
+I0507 21:39:25.483469  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:25.484601  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:25.488726  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:25.580550  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:25.809567  9089 project.cpp:232] distance:32.5596
+I0507 21:39:25.809597  9089 project.cpp:233] centroid10.781 -4.66675
+I0507 21:39:25.809646  9089 project.cpp:232] distance:3.07688
+I0507 21:39:25.809654  9089 project.cpp:233] centroid2.00764 1.03404
+I0507 21:39:25.809690  9089 project.cpp:232] distance:27.7567
+I0507 21:39:25.809696  9089 project.cpp:233] centroid6.70499 -4.58822
+I0507 21:39:25.809733  9089 project.cpp:232] distance:20.2868
+I0507 21:39:25.809738  9089 project.cpp:233] centroid19.9604 0.571333
+I0507 21:39:25.809768  9089 project.cpp:232] distance:9.76166
+I0507 21:39:25.809774  9089 project.cpp:233] centroid8.09293 1.29179
+I0507 21:39:25.809803  9089 project.cpp:232] distance:14.1013
+I0507 21:39:25.809808  9089 project.cpp:233] centroid9.26052 -2.20018
+I0507 21:39:25.809841  9089 project.cpp:232] distance:7.10628
+I0507 21:39:25.809849  9089 project.cpp:233] centroid5.02081 1.44412
+I0507 21:39:25.809892  9089 project.cpp:232] distance:0.764539
+I0507 21:39:25.809899  9089 project.cpp:233] centroid-0.641773 -0.350379
+I0507 21:39:25.809932  9089 project.cpp:232] distance:55.7591
+I0507 21:39:25.809938  9089 project.cpp:233] centroid38.5122 4.15294
+I0507 21:39:25.809965  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:25.810761  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:25.814239  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:25.918821  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:26.153390  9089 project.cpp:232] distance:35.9849
+I0507 21:39:26.153432  9089 project.cpp:233] centroid11.4557 -4.9527
+I0507 21:39:26.153482  9089 project.cpp:232] distance:15.9247
+I0507 21:39:26.153489  9089 project.cpp:233] centroid15.6941 0.480194
+I0507 21:39:26.153524  9089 project.cpp:232] distance:2.54453
+I0507 21:39:26.153530  9089 project.cpp:233] centroid1.71928 0.908433
+I0507 21:39:26.153575  9089 project.cpp:232] distance:14.2336
+I0507 21:39:26.153582  9089 project.cpp:233] centroid10.7248 1.87317
+I0507 21:39:26.153615  9089 project.cpp:232] distance:31.118
+I0507 21:39:26.153622  9089 project.cpp:233] centroid7.20268 -4.89033
+I0507 21:39:26.153661  9089 project.cpp:232] distance:11.9605
+I0507 21:39:26.153667  9089 project.cpp:233] centroid7.2894 2.16127
+I0507 21:39:26.153702  9089 project.cpp:232] distance:28.2545
+I0507 21:39:26.153708  9089 project.cpp:233] centroid15.2617 -3.60455
+I0507 21:39:26.153748  9089 project.cpp:232] distance:0.201399
+I0507 21:39:26.153753  9089 project.cpp:233] centroid0.201008 0.0197649
+I0507 21:39:26.153793  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:26.154762  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:26.158581  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:26.253080  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:26.482211  9089 project.cpp:232] distance:40.3523
+I0507 21:39:26.482251  9089 project.cpp:233] centroid12.2785 -5.29847
+I0507 21:39:26.482300  9089 project.cpp:232] distance:4.64544
+I0507 21:39:26.482306  9089 project.cpp:233] centroid2.60946 1.42688
+I0507 21:39:26.482338  9089 project.cpp:232] distance:19.9786
+I0507 21:39:26.482343  9089 project.cpp:233] centroid19.4813 0.705252
+I0507 21:39:26.482376  9089 project.cpp:232] distance:11.0215
+I0507 21:39:26.482383  9089 project.cpp:233] centroid8.57782 1.56323
+I0507 21:39:26.482434  9089 project.cpp:232] distance:28.8738
+I0507 21:39:26.482440  9089 project.cpp:233] centroid6.94504 -4.68281
+I0507 21:39:26.482503  9089 project.cpp:232] distance:27.7922
+I0507 21:39:26.482512  9089 project.cpp:233] centroid15.155 -3.55489
+I0507 21:39:26.482554  9089 project.cpp:232] distance:0.295476
+I0507 21:39:26.482561  9089 project.cpp:233] centroid0.292619 0.0534514
+I0507 21:39:26.482597  9089 project.cpp:232] distance:9.69765
+I0507 21:39:26.482604  9089 project.cpp:233] centroid6.24823 1.85726
+I0507 21:39:26.482638  9089 project.cpp:232] distance:1.39461
+I0507 21:39:26.482645  9089 project.cpp:233] centroid-1.31345 0.284884
+I0507 21:39:26.482688  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:26.483660  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:26.488963  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:26.599135  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:26.825274  9089 project.cpp:232] distance:35.073
+I0507 21:39:26.825318  9089 project.cpp:233] centroid11.6898 -4.83561
+I0507 21:39:26.825376  9089 project.cpp:232] distance:32.1193
+I0507 21:39:26.825399  9089 project.cpp:233] centroid7.36583 -4.97529
+I0507 21:39:26.825459  9089 project.cpp:232] distance:3.77935
+I0507 21:39:26.825466  9089 project.cpp:233] centroid2.18028 1.26454
+I0507 21:39:26.825521  9089 project.cpp:232] distance:18.3162
+I0507 21:39:26.825533  9089 project.cpp:233] centroid11.7287 2.56661
+I0507 21:39:26.825568  9089 project.cpp:232] distance:30.4572
+I0507 21:39:26.825575  9089 project.cpp:233] centroid27.5211 1.71351
+I0507 21:39:26.825608  9089 project.cpp:232] distance:26.0053
+I0507 21:39:26.825615  9089 project.cpp:233] centroid14.9755 -3.32112
+I0507 21:39:26.825657  9089 project.cpp:232] distance:0.860238
+I0507 21:39:26.825665  9089 project.cpp:233] centroid0.783416 0.277168
+I0507 21:39:26.825703  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:26.826913  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:26.831202  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:26.935266  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:27.165585  9089 project.cpp:232] distance:33.5123
+I0507 21:39:27.165618  9089 project.cpp:233] centroid11.644 -4.67636
+I0507 21:39:27.165669  9089 project.cpp:232] distance:6.30846
+I0507 21:39:27.165676  9089 project.cpp:233] centroid2.99803 1.81946
+I0507 21:39:27.165717  9089 project.cpp:232] distance:32.4872
+I0507 21:39:27.165724  9089 project.cpp:233] centroid7.45829 -5.00289
+I0507 21:39:27.165763  9089 project.cpp:232] distance:17.882
+I0507 21:39:27.165769  9089 project.cpp:233] centroid10.9701 2.62904
+I0507 21:39:27.165800  9089 project.cpp:232] distance:30.0928
+I0507 21:39:27.165807  9089 project.cpp:233] centroid25.9467 2.0362
+I0507 21:39:27.165830  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:27.166721  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:27.171550  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:27.270416  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:27.508100  9089 project.cpp:232] distance:39.7514
+I0507 21:39:27.508131  9089 project.cpp:233] centroid13.1069 -5.16183
+I0507 21:39:27.508181  9089 project.cpp:232] distance:15.9438
+I0507 21:39:27.508220  9089 project.cpp:233] centroid9.80245 2.47818
+I0507 21:39:27.508260  9089 project.cpp:232] distance:36.403
+I0507 21:39:27.508267  9089 project.cpp:233] centroid7.86419 -5.34217
+I0507 21:39:27.508325  9089 project.cpp:232] distance:37.5188
+I0507 21:39:27.508332  9089 project.cpp:233] centroid30.4934 2.65053
+I0507 21:39:27.508361  9089 project.cpp:232] distance:1.47072
+I0507 21:39:27.508373  9089 project.cpp:233] centroid1.1125 0.598516
+I0507 21:39:27.508425  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:27.509187  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:27.512804  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:27.622445  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:27.861150  9089 project.cpp:232] distance:13.13
+I0507 21:39:27.861182  9089 project.cpp:233] centroid7.7237 2.32514
+I0507 21:39:27.861227  9089 project.cpp:232] distance:25.9707
+I0507 21:39:27.861235  9089 project.cpp:233] centroid10.5728 -3.92401
+I0507 21:39:27.861277  9089 project.cpp:232] distance:46.1176
+I0507 21:39:27.861285  9089 project.cpp:233] centroid30.6333 3.93501
+I0507 21:39:27.861316  9089 project.cpp:232] distance:28.4153
+I0507 21:39:27.861322  9089 project.cpp:233] centroid7.13344 -4.61322
+I0507 21:39:27.861359  9089 project.cpp:232] distance:65.0111
+I0507 21:39:27.861366  9089 project.cpp:233] centroid9.01183 -7.48327
+I0507 21:39:27.861392  9089 project.cpp:232] distance:174.398
+I0507 21:39:27.861398  9089 project.cpp:233] centroid48.0205 11.2418
+I0507 21:39:27.861426  9089 project.cpp:232] distance:19.793
+I0507 21:39:27.861443  9089 project.cpp:233] centroid14.382 -2.32614
+I0507 21:39:27.861500  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:27.862525  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:27.866672  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:27.971622  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:28.206077  9089 project.cpp:232] distance:21.8547
+I0507 21:39:28.206108  9089 project.cpp:233] centroid10.5923 -3.35595
+I0507 21:39:28.206167  9089 project.cpp:232] distance:64.7296
+I0507 21:39:28.206174  9089 project.cpp:233] centroid35.1515 5.43857
+I0507 21:39:28.206204  9089 project.cpp:232] distance:3.36999
+I0507 21:39:28.206209  9089 project.cpp:233] centroid2.68867 0.825426
+I0507 21:39:28.206240  9089 project.cpp:232] distance:32.0314
+I0507 21:39:28.206247  9089 project.cpp:233] centroid7.01706 -5.00143
+I0507 21:39:28.206283  9089 project.cpp:232] distance:23.5704
+I0507 21:39:28.206290  9089 project.cpp:233] centroid7.78115 -3.97357
+I0507 21:39:28.206322  9089 project.cpp:232] distance:56.1467
+I0507 21:39:28.206327  9089 project.cpp:233] centroid8.27531 -6.91891
+I0507 21:39:28.206355  9089 project.cpp:232] distance:17.6068
+I0507 21:39:28.206362  9089 project.cpp:233] centroid13.9526 -1.91159
+I0507 21:39:28.206395  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:28.207268  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:28.212646  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:28.310150  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:28.552742  9089 project.cpp:232] distance:6.4301
+I0507 21:39:28.552773  9089 project.cpp:233] centroid3.39134 1.7432
+I0507 21:39:28.552827  9089 project.cpp:232] distance:13.8661
+I0507 21:39:28.552835  9089 project.cpp:233] centroid9.3571 -2.12345
+I0507 21:39:28.552872  9089 project.cpp:232] distance:129.284
+I0507 21:39:28.552879  9089 project.cpp:233] centroid34.3152 9.74518
+I0507 21:39:28.552915  9089 project.cpp:232] distance:15.6441
+I0507 21:39:28.552922  9089 project.cpp:233] centroid6.00936 -3.10399
+I0507 21:39:28.552963  9089 project.cpp:232] distance:13.4334
+I0507 21:39:28.552970  9089 project.cpp:233] centroid13.2707 -0.403354
+I0507 21:39:28.553011  9089 project.cpp:232] distance:45.0113
+I0507 21:39:28.553020  9089 project.cpp:233] centroid8.1093 -6.0747
+I0507 21:39:28.553107  9089 project.cpp:232] distance:288.212
+I0507 21:39:28.553119  9089 project.cpp:233] centroid39.0161 15.786
+I0507 21:39:28.553166  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:28.554157  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:28.559079  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:28.693064  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:28.931025  9089 project.cpp:232] distance:42.9847
+I0507 21:39:28.931062  9089 project.cpp:233] centroid8.416 -5.87951
+I0507 21:39:28.931114  9089 project.cpp:232] distance:13.2219
+I0507 21:39:28.931121  9089 project.cpp:233] centroid9.71393 -1.87295
+I0507 21:39:28.931162  9089 project.cpp:232] distance:12.1321
+I0507 21:39:28.931169  9089 project.cpp:233] centroid5.5824 -2.55923
+I0507 21:39:28.931210  9089 project.cpp:232] distance:22.1127
+I0507 21:39:28.931216  9089 project.cpp:233] centroid6.62785 3.93508
+I0507 21:39:28.931248  9089 project.cpp:232] distance:170.648
+I0507 21:39:28.931255  9089 project.cpp:233] centroid35.5636 11.6226
+I0507 21:39:28.931285  9089 project.cpp:232] distance:45.014
+I0507 21:39:28.931293  9089 project.cpp:233] centroid7.61316 -6.11562
+I0507 21:39:28.931335  9089 project.cpp:232] distance:9.76191
+I0507 21:39:28.931341  9089 project.cpp:233] centroid-7.30448 -1.56762
+I0507 21:39:28.931378  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:28.932332  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:28.936075  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:29.039834  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:29.276775  9089 project.cpp:232] distance:9.26687
+I0507 21:39:29.276808  9089 project.cpp:233] centroid7.8115 -1.20639
+I0507 21:39:29.276858  9089 project.cpp:232] distance:22.952
+I0507 21:39:29.276875  9089 project.cpp:233] centroid6.67345 -4.03467
+I0507 21:39:29.276932  9089 project.cpp:232] distance:9.80621
+I0507 21:39:29.276944  9089 project.cpp:233] centroid5.191 -2.1483
+I0507 21:39:29.277002  9089 project.cpp:232] distance:20.2549
+I0507 21:39:29.277014  9089 project.cpp:233] centroid5.80643 3.80111
+I0507 21:39:29.277067  9089 project.cpp:232] distance:29.477
+I0507 21:39:29.277086  9089 project.cpp:233] centroid6.27744 -4.8166
+I0507 21:39:29.277153  9089 project.cpp:232] distance:181.215
+I0507 21:39:29.277168  9089 project.cpp:233] centroid31.9532 12.2173
+I0507 21:39:29.277210  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:29.278417  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:29.282760  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:29.416847  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:29.667505  9089 project.cpp:232] distance:5.90036
+I0507 21:39:29.667537  9089 project.cpp:233] centroid5.58562 -0.561015
+I0507 21:39:29.667598  9089 project.cpp:232] distance:21.3012
+I0507 21:39:29.667609  9089 project.cpp:233] centroid6.80695 -3.80713
+I0507 21:39:29.667650  9089 project.cpp:232] distance:202.594
+I0507 21:39:29.667659  9089 project.cpp:233] centroid30.2124 13.1294
+I0507 21:39:29.667707  9089 project.cpp:232] distance:26.7836
+I0507 21:39:29.667724  9089 project.cpp:233] centroid6.37606 -4.51747
+I0507 21:39:29.667785  9089 project.cpp:232] distance:20.473
+I0507 21:39:29.667798  9089 project.cpp:233] centroid5.35416 3.8883
+I0507 21:39:29.667856  9089 project.cpp:232] distance:7.94354
+I0507 21:39:29.667868  9089 project.cpp:233] centroid4.85397 -1.75772
+I0507 21:39:29.667927  9089 project.cpp:232] distance:9.19603
+I0507 21:39:29.667949  9089 project.cpp:233] centroid8.52668 0.818141
+I0507 21:39:29.668015  9089 project.cpp:232] distance:24.0465
+I0507 21:39:29.668030  9089 project.cpp:233] centroid5.35428 -4.32345
+I0507 21:39:29.668076  9089 project.cpp:232] distance:8.51102
+I0507 21:39:29.668092  9089 project.cpp:233] centroid4.02983 2.11688
+I0507 21:39:29.668154  9089 project.cpp:232] distance:9.62455
+I0507 21:39:29.668164  9089 project.cpp:233] centroid-3.49343 -2.47611
+I0507 21:39:29.668291  9089 project.cpp:232] distance:590.942
+I0507 21:39:29.668305  9089 project.cpp:233] centroid42.4753 23.4194
+I0507 21:39:29.668354  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:29.669240  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:29.673048  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:29.788307  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:30.040671  9089 project.cpp:232] distance:5.78505
+I0507 21:39:30.040704  9089 project.cpp:233] centroid5.78255 -0.0500692
+I0507 21:39:30.040769  9089 project.cpp:232] distance:4.75121
+I0507 21:39:30.040777  9089 project.cpp:233] centroid3.84529 -0.951797
+I0507 21:39:30.040817  9089 project.cpp:232] distance:22.4077
+I0507 21:39:30.040824  9089 project.cpp:233] centroid7.62882 -3.84433
+I0507 21:39:30.040859  9089 project.cpp:232] distance:18.3042
+I0507 21:39:30.040866  9089 project.cpp:233] centroid5.86101 -3.52749
+I0507 21:39:30.040912  9089 project.cpp:232] distance:326.565
+I0507 21:39:30.040926  9089 project.cpp:233] centroid29.603 17.2326
+I0507 21:39:30.040972  9089 project.cpp:232] distance:23.7977
+I0507 21:39:30.040983  9089 project.cpp:233] centroid8.87754 -3.86266
+I0507 21:39:30.041035  9089 project.cpp:232] distance:40.5817
+I0507 21:39:30.041047  9089 project.cpp:233] centroid7.6937 -5.7348
+I0507 21:39:30.041093  9089 project.cpp:232] distance:9.83642
+I0507 21:39:30.041108  9089 project.cpp:233] centroid7.21177 1.62008
+I0507 21:39:30.041175  9089 project.cpp:232] distance:33.5964
+I0507 21:39:30.041190  9089 project.cpp:233] centroid-6.18934 -5.23517
+I0507 21:39:30.041241  9089 project.cpp:232] distance:378.287
+I0507 21:39:30.041255  9089 project.cpp:233] centroid32.3784 18.5986
+I0507 21:39:30.041298  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:30.042961  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:30.049813  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:30.163064  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:30.393522  9089 project.cpp:232] distance:5.05295
+I0507 21:39:30.393551  9089 project.cpp:233] centroid3.98501 1.03341
+I0507 21:39:30.393602  9089 project.cpp:232] distance:18.0093
+I0507 21:39:30.393611  9089 project.cpp:233] centroid7.04043 -3.31193
+I0507 21:39:30.393646  9089 project.cpp:232] distance:10.1214
+I0507 21:39:30.393652  9089 project.cpp:233] centroid6.79074 -1.825
+I0507 21:39:30.393685  9089 project.cpp:232] distance:28.3487
+I0507 21:39:30.393692  9089 project.cpp:233] centroid7.84386 -4.52822
+I0507 21:39:30.393723  9089 project.cpp:232] distance:2.91764
+I0507 21:39:30.393729  9089 project.cpp:233] centroid2.90533 -0.110952
+I0507 21:39:30.393780  9089 project.cpp:232] distance:6.09312
+I0507 21:39:30.393786  9089 project.cpp:233] centroid5.26415 -0.910476
+I0507 21:39:30.393831  9089 project.cpp:232] distance:20.2857
+I0507 21:39:30.393836  9089 project.cpp:233] centroid9.38356 -3.30183
+I0507 21:39:30.393870  9089 project.cpp:232] distance:12.8938
+I0507 21:39:30.393877  9089 project.cpp:233] centroid4.30714 -2.9303
+I0507 21:39:30.393906  9089 project.cpp:232] distance:37.3139
+I0507 21:39:30.393913  9089 project.cpp:233] centroid8.7286 5.34653
+I0507 21:39:30.393952  9089 project.cpp:232] distance:27.9775
+I0507 21:39:30.393959  9089 project.cpp:233] centroid8.65716 4.3955
+I0507 21:39:30.394006  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:30.395156  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:30.399637  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:30.507169  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:30.745851  9089 project.cpp:232] distance:6.32825
+I0507 21:39:30.745895  9089 project.cpp:233] centroid4.60832 1.31146
+I0507 21:39:30.745995  9089 project.cpp:232] distance:10.6449
+I0507 21:39:30.746011  9089 project.cpp:233] centroid8.02412 -1.6189
+I0507 21:39:30.746083  9089 project.cpp:232] distance:11.5688
+I0507 21:39:30.746170  9089 project.cpp:233] centroid6.82239 -2.17863
+I0507 21:39:30.746245  9089 project.cpp:232] distance:0.657537
+I0507 21:39:30.746260  9089 project.cpp:233] centroid-0.639105 -0.135763
+I0507 21:39:30.746325  9089 project.cpp:232] distance:26.0314
+I0507 21:39:30.746338  9089 project.cpp:233] centroid8.3085 -4.20985
+I0507 21:39:30.746400  9089 project.cpp:232] distance:1.54585
+I0507 21:39:30.746412  9089 project.cpp:233] centroid-0.875846 0.818538
+I0507 21:39:30.746469  9089 project.cpp:232] distance:71.4741
+I0507 21:39:30.746480  9089 project.cpp:233] centroid-10.7364 7.79343
+I0507 21:39:30.746523  9089 project.cpp:232] distance:34.6242
+I0507 21:39:30.746534  9089 project.cpp:233] centroid7.79303 5.17988
+I0507 21:39:30.746614  9089 project.cpp:232] distance:9.38559
+I0507 21:39:30.746625  9089 project.cpp:233] centroid9.37818 -0.0861209
+I0507 21:39:30.746687  9089 project.cpp:232] distance:5.15898
+I0507 21:39:30.746698  9089 project.cpp:233] centroid-2.0042 -1.77617
+I0507 21:39:30.746773  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:30.748289  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:30.752259  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:30.854563  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:31.085002  9089 project.cpp:232] distance:14.9492
+I0507 21:39:31.085034  9089 project.cpp:233] centroid6.51068 2.90491
+I0507 21:39:31.085094  9089 project.cpp:232] distance:5.54245
+I0507 21:39:31.085103  9089 project.cpp:233] centroid5.29943 -0.492968
+I0507 21:39:31.085157  9089 project.cpp:232] distance:5.40508
+I0507 21:39:31.085163  9089 project.cpp:233] centroid5.10711 0.545863
+I0507 21:39:31.085204  9089 project.cpp:232] distance:16.4885
+I0507 21:39:31.085213  9089 project.cpp:233] centroid8.71049 -2.78891
+I0507 21:39:31.085248  9089 project.cpp:232] distance:15.092
+I0507 21:39:31.085255  9089 project.cpp:233] centroid6.84561 -2.87165
+I0507 21:39:31.085283  9089 project.cpp:232] distance:2.9957
+I0507 21:39:31.085289  9089 project.cpp:233] centroid-1.65118 1.15953
+I0507 21:39:31.085317  9089 project.cpp:232] distance:15.8672
+I0507 21:39:31.085325  9089 project.cpp:233] centroid10.3551 -2.34778
+I0507 21:39:31.085355  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:31.086361  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:31.090536  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:31.201001  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:31.451041  9089 project.cpp:232] distance:19.1582
+I0507 21:39:31.451107  9089 project.cpp:233] centroid8.97363 -3.19132
+I0507 21:39:31.451177  9089 project.cpp:232] distance:10.8401
+I0507 21:39:31.451189  9089 project.cpp:233] centroid7.73534 -1.76202
+I0507 21:39:31.451236  9089 project.cpp:232] distance:2.66226
+I0507 21:39:31.451243  9089 project.cpp:233] centroid2.59687 0.255701
+I0507 21:39:31.451287  9089 project.cpp:232] distance:8.79824
+I0507 21:39:31.451295  9089 project.cpp:233] centroid8.27542 -0.723065
+I0507 21:39:31.451349  9089 project.cpp:232] distance:21.0317
+I0507 21:39:31.451359  9089 project.cpp:233] centroid6.90373 3.75871
+I0507 21:39:31.451421  9089 project.cpp:232] distance:3.09735
+I0507 21:39:31.451427  9089 project.cpp:233] centroid3.09558 -0.0420622
+I0507 21:39:31.451467  9089 project.cpp:232] distance:28.237
+I0507 21:39:31.451474  9089 project.cpp:233] centroid-8.81821 4.40667
+I0507 21:39:31.451514  9089 project.cpp:232] distance:24.3007
+I0507 21:39:31.451520  9089 project.cpp:233] centroid-7.64139 4.08158
+I0507 21:39:31.451546  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:31.452414  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:31.456583  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:31.574337  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:31.809013  9089 project.cpp:232] distance:8.40141
+I0507 21:39:31.809056  9089 project.cpp:233] centroid8.29944 0.31933
+I0507 21:39:31.809196  9089 project.cpp:232] distance:5.83408
+I0507 21:39:31.809211  9089 project.cpp:233] centroid5.71715 -0.341955
+I0507 21:39:31.809274  9089 project.cpp:232] distance:3.38297
+I0507 21:39:31.809285  9089 project.cpp:233] centroid2.60635 0.881259
+I0507 21:39:31.809391  9089 project.cpp:232] distance:0.715003
+I0507 21:39:31.809401  9089 project.cpp:233] centroid0.679886 -0.187396
+I0507 21:39:31.809468  9089 project.cpp:232] distance:8.3214
+I0507 21:39:31.809475  9089 project.cpp:233] centroid3.22845 -2.25676
+I0507 21:39:31.809520  9089 project.cpp:232] distance:11.7144
+I0507 21:39:31.809532  9089 project.cpp:233] centroid8.14687 -1.8888
+I0507 21:39:31.809587  9089 project.cpp:232] distance:9.94154
+I0507 21:39:31.809597  9089 project.cpp:233] centroid-5.9348 2.00168
+I0507 21:39:31.809643  9089 project.cpp:232] distance:89.2899
+I0507 21:39:31.809654  9089 project.cpp:233] centroid14.2056 -8.66512
+I0507 21:39:31.809700  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:31.811177  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:31.816440  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:31.978013  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:32.285634  9089 project.cpp:232] distance:12.6399
+I0507 21:39:32.285693  9089 project.cpp:233] centroid8.50726 2.0329
+I0507 21:39:32.285800  9089 project.cpp:232] distance:8.58203
+I0507 21:39:32.285813  9089 project.cpp:233] centroid4.00128 -2.14027
+I0507 21:39:32.285897  9089 project.cpp:232] distance:1.96244
+I0507 21:39:32.285913  9089 project.cpp:233] centroid1.71686 0.495559
+I0507 21:39:32.286021  9089 project.cpp:232] distance:24.5622
+I0507 21:39:32.286036  9089 project.cpp:233] centroid6.13985 -4.29213
+I0507 21:39:32.286114  9089 project.cpp:232] distance:18.7963
+I0507 21:39:32.286128  9089 project.cpp:233] centroid5.37995 3.66283
+I0507 21:39:32.286201  9089 project.cpp:232] distance:5.56217
+I0507 21:39:32.286213  9089 project.cpp:233] centroid4.89609 0.816137
+I0507 21:39:32.286267  9089 project.cpp:232] distance:6.91575
+I0507 21:39:32.286278  9089 project.cpp:233] centroid6.81636 -0.315275
+I0507 21:39:32.286326  9089 project.cpp:232] distance:6.77266
+I0507 21:39:32.286338  9089 project.cpp:233] centroid6.74015 0.180296
+I0507 21:39:32.286391  9089 project.cpp:232] distance:7.19707
+I0507 21:39:32.286402  9089 project.cpp:233] centroid4.40122 -1.67208
+I0507 21:39:32.286454  9089 project.cpp:232] distance:4.61579
+I0507 21:39:32.286469  9089 project.cpp:233] centroid-4.20548 0.640554
+I0507 21:39:32.286522  9089 project.cpp:232] distance:143.225
+I0507 21:39:32.286541  9089 project.cpp:233] centroid29.2288 -10.6769
+I0507 21:39:32.286609  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:32.287896  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:32.291239  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:32.469442  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:32.697878  9089 project.cpp:232] distance:14.1188
+I0507 21:39:32.697912  9089 project.cpp:233] centroid7.72891 2.52782
+I0507 21:39:32.698012  9089 project.cpp:232] distance:1.65773
+I0507 21:39:32.698021  9089 project.cpp:233] centroid1.31949 0.581586
+I0507 21:39:32.698088  9089 project.cpp:232] distance:9.24352
+I0507 21:39:32.698097  9089 project.cpp:233] centroid7.26687 1.40593
+I0507 21:39:32.698146  9089 project.cpp:232] distance:41.4051
+I0507 21:39:32.698154  9089 project.cpp:233] centroid8.28434 -5.75506
+I0507 21:39:32.698200  9089 project.cpp:232] distance:21.4643
+I0507 21:39:32.698210  9089 project.cpp:233] centroid7.3564 -3.75604
+I0507 21:39:32.698264  9089 project.cpp:232] distance:6.54178
+I0507 21:39:32.698276  9089 project.cpp:233] centroid6.53986 0.0438623
+I0507 21:39:32.698323  9089 project.cpp:232] distance:5.2353
+I0507 21:39:32.698336  9089 project.cpp:233] centroid5.17407 0.247434
+I0507 21:39:32.698505  9089 project.cpp:232] distance:6.49187
+I0507 21:39:32.698526  9089 project.cpp:233] centroid4.40846 -1.4434
+I0507 21:39:32.698648  9089 project.cpp:232] distance:10.3273
+I0507 21:39:32.698663  9089 project.cpp:233] centroid-9.48321 0.918728
+I0507 21:39:32.698709  9089 project.cpp:232] distance:10.8934
+I0507 21:39:32.698724  9089 project.cpp:233] centroid5.73526 -2.27116
+I0507 21:39:32.698778  9089 project.cpp:232] distance:173.906
+I0507 21:39:32.698792  9089 project.cpp:233] centroid38.0324 -11.6565
+I0507 21:39:32.698846  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:32.700721  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:32.704669  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:32.850625  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:33.068593  9089 project.cpp:232] distance:1.82196
+I0507 21:39:33.068620  9089 project.cpp:233] centroid1.44423 0.614598
+I0507 21:39:33.068667  9089 project.cpp:232] distance:10.4696
+I0507 21:39:33.068681  9089 project.cpp:233] centroid6.88704 1.89278
+I0507 21:39:33.068727  9089 project.cpp:232] distance:7.78671
+I0507 21:39:33.068737  9089 project.cpp:233] centroid7.00701 0.883004
+I0507 21:39:33.068782  9089 project.cpp:232] distance:38.7921
+I0507 21:39:33.068794  9089 project.cpp:233] centroid8.2316 -5.52816
+I0507 21:39:33.068852  9089 project.cpp:232] distance:7.08125
+I0507 21:39:33.068864  9089 project.cpp:233] centroid6.90456 0.42034
+I0507 21:39:33.068920  9089 project.cpp:232] distance:20.8839
+I0507 21:39:33.068933  9089 project.cpp:233] centroid7.81074 -3.61569
+I0507 21:39:33.068979  9089 project.cpp:232] distance:20.5393
+I0507 21:39:33.068990  9089 project.cpp:233] centroid8.9888 3.39861
+I0507 21:39:33.069044  9089 project.cpp:232] distance:10.148
+I0507 21:39:33.069056  9089 project.cpp:233] centroid-9.91961 0.477917
+I0507 21:39:33.069105  9089 project.cpp:232] distance:14.0945
+I0507 21:39:33.069118  9089 project.cpp:233] centroid8.31901 -2.40322
+I0507 21:39:33.069161  9089 project.cpp:232] distance:0.651037
+I0507 21:39:33.069175  9089 project.cpp:233] centroid-0.390431 0.510495
+I0507 21:39:33.069221  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:33.069906  9089 project.cpp:284] 4. project picture is published!
+I0507 21:39:33.072824  9089 project.cpp:257] 1. LOAD the Lidar and image frame Done!
+I0507 21:39:33.183491  9089 project.cpp:263] 2. Detect the Frame classificator Done!
+I0507 21:39:33.403008  9089 project.cpp:232] distance:26.7157
+I0507 21:39:33.403038  9089 project.cpp:233] centroid6.96299 4.4444
+I0507 21:39:33.403096  9089 project.cpp:232] distance:18.1428
+I0507 21:39:33.403103  9089 project.cpp:233] centroid8.26019 -3.14366
+I0507 21:39:33.403149  9089 project.cpp:232] distance:5.26464
+I0507 21:39:33.403156  9089 project.cpp:233] centroid4.80499 0.677974
+I0507 21:39:33.403184  9089 project.cpp:232] distance:13.3743
+I0507 21:39:33.403189  9089 project.cpp:233] centroid6.46039 2.62942
+I0507 21:39:33.403223  9089 project.cpp:232] distance:37.7188
+I0507 21:39:33.403229  9089 project.cpp:233] centroid8.24295 -5.42916
+I0507 21:39:33.403275  9089 project.cpp:232] distance:9.68342
+I0507 21:39:33.403285  9089 project.cpp:233] centroid7.17199 1.58475
+I0507 21:39:33.403394  9089 project.cpp:232] distance:1.54383
+I0507 21:39:33.403409  9089 project.cpp:233] centroid1.50008 -0.209153
+I0507 21:39:33.403442  9089 project.cpp:232] distance:21.1268
+I0507 21:39:33.403450  9089 project.cpp:233] centroid-9.99453 3.33651
+I0507 21:39:33.403486  9089 project.cpp:232] distance:9.45578
+I0507 21:39:33.403498  9089 project.cpp:233] centroid-9.32998 -0.354675
+I0507 21:39:33.403542  9089 project.cpp:271] 3. Draw the point intpo  ROI Done!
+I0507 21:39:33.404281  9089 project.cpp:284] 4. project picture is published!

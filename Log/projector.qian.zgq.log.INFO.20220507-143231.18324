@@ -1,0 +1,4 @@
+Log file created at: 2022/05/07 14:32:31
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 14:32:31.676375 18324 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log

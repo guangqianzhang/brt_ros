@@ -1,0 +1,422 @@
+Log file created at: 2022/05/07 21:21:07
+Running on machine: qian
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0507 21:21:07.494531 15688 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
+I0507 21:21:07.507400 15688 project.cpp:15] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
+I0507 21:21:07.508694 15688 project.cpp:18] /test_frame_nodelidar_topic:/kitti/velo/pointcloud
+I0507 21:21:07.509414 15688 project.cpp:21] /test_frame_nodecamera_frame_id:$(arg camera_frame_id
+I0507 21:21:07.510008 15688 project.cpp:24] /test_frame_nodecamera_topic_out:
+I0507 21:21:07.511027 15688 project.cpp:38] /test_frame_nodemedel_path:/home/zgq/Documents/model/yolo/
+I0507 21:21:07.511044 15688 project.cpp:39] /test_frame_nodeyoloclassfile:/home/zgq/Documents/model/yolo/coco.names
+I0507 21:21:07.511054 15688 project.cpp:40] /test_frame_nodeyoloModelConfiguration:/home/zgq/Documents/model/yolo/yolov4-tiny.cfg
+I0507 21:21:07.511061 15688 project.cpp:41] /test_frame_nodeyoloModelWeights:/home/zgq/Documents/model/yolo/yolov4-tiny.weights
+I0507 21:21:07.528869 15688 project.cpp:65] get the camtocam_mat
+I0507 21:21:07.528899 15688 project.cpp:80] get the cameraIn
+I0507 21:21:07.528924 15688 project.cpp:94] get the RT
+I0507 21:21:08.012655 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:08.157507 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:08.395117 15688 project.cpp:207] class2box0质心=5.15933 -0.380327 -0.552951
+I0507 21:21:08.395249 15688 project.cpp:207] class11box1质心=-5.3101 3.0648 -0.8693
+I0507 21:21:08.395328 15688 project.cpp:207] class2box2质心=8.12547 5.80434 -1.27164
+I0507 21:21:08.395416 15688 project.cpp:207] class2box3质心=0.640664 -0.141152 -0.234956
+I0507 21:21:08.395484 15688 project.cpp:207] class7box4质心=-8.6544 -4.78395 0.037
+I0507 21:21:08.395550 15688 project.cpp:207] class2box5质心=9.55941 5.69466 -0.948549
+I0507 21:21:08.395612 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:08.396349 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:08.399969 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:08.522172 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:08.765795 15688 project.cpp:207] class2box0质心=5.2159 -0.576408 -0.558173
+I0507 21:21:08.765890 15688 project.cpp:207] class2box1质心=0.282692 0.0662407 -0.248236
+I0507 21:21:08.765960 15688 project.cpp:207] class2box2质心=8.71514 6.12714 -1.39873
+I0507 21:21:08.766031 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:08.767086 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:08.770795 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:08.892562 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:09.120005 15688 project.cpp:207] class2box0质心=3.95997 -0.547404 -0.517744
+I0507 21:21:09.120096 15688 project.cpp:207] class7box1质心=-0.436489 0.580593 -0.277863
+I0507 21:21:09.120146 15688 project.cpp:207] class2box2质心=7.77743 5.65159 -1.50575
+I0507 21:21:09.120191 15688 project.cpp:207] class2box3质心=-nan -nan -nan
+I0507 21:21:09.120239 15688 project.cpp:207] class2box4质心=8.83105 5.94655 -0.775784
+I0507 21:21:09.120285 15688 project.cpp:207] class2box5质心=17.5025 9.21205 -1.34275
+I0507 21:21:09.120337 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:09.121410 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:09.124989 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:09.243584 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:09.555305 15688 project.cpp:207] class2box0质心=3.10613 -0.625483 -0.476405
+I0507 21:21:09.555392 15688 project.cpp:207] class2box1质心=14.1895 7.15822 -1.42176
+I0507 21:21:09.555433 15688 project.cpp:207] class7box2质心=1.21568 -0.661447 -0.0187647
+I0507 21:21:09.555471 15688 project.cpp:207] class2box3质心=5.68946 -4.33171 -0.721519
+I0507 21:21:09.555510 15688 project.cpp:207] class11box4质心=-3.30906 2.94228 -0.624
+I0507 21:21:09.555550 15688 project.cpp:207] class2box5质心=9.80936 6.16547 -1.1446
+I0507 21:21:09.555593 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:09.556600 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:09.560158 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:09.658077 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:09.880077 15688 project.cpp:207] class2box0质心=0.715982 -0.0858705 -0.385747
+I0507 21:21:09.880170 15688 project.cpp:207] class2box1质心=12.6041 6.50482 -0.812807
+I0507 21:21:09.880221 15688 project.cpp:207] class2box2质心=8.46527 5.53935 -1.00835
+I0507 21:21:09.880270 15688 project.cpp:207] class0box3质心=1.3132 -0.881957 0.0190247
+I0507 21:21:09.880303 15688 project.cpp:207] class2box4质心=11.07 4.94626 -0.654534
+I0507 21:21:09.880340 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:09.881083 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:09.886322 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:09.982338 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:10.203296 15688 project.cpp:207] class2box0质心=1.07339 -0.495977 -0.352042
+I0507 21:21:10.203384 15688 project.cpp:207] class2box1质心=7.02397 3.20189 -0.602847
+I0507 21:21:10.203438 15688 project.cpp:207] class2box2质心=7.94967 4.63555 -0.968082
+I0507 21:21:10.203480 15688 project.cpp:207] class2box3质心=13.5357 5.33348 -0.812123
+I0507 21:21:10.203519 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:10.204630 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:10.208092 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:10.309185 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:10.522979 15688 project.cpp:207] class2box0质心=1.54672 -0.830427 -0.391438
+I0507 21:21:10.523066 15688 project.cpp:207] class2box1质心=9.67835 4.30479 -0.774933
+I0507 21:21:10.523113 15688 project.cpp:207] class2box2质心=9.11414 5.03578 -1.15779
+I0507 21:21:10.523164 15688 project.cpp:207] class2box3质心=15.448 6.08518 -0.771769
+I0507 21:21:10.523203 15688 project.cpp:207] class2box4质心=-6.94217 -1.95885 0.0465705
+I0507 21:21:10.523241 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:10.524173 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:10.527844 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:10.640571 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:10.859406 15688 project.cpp:207] class2box0质心=2.13815 -1.26175 -0.453177
+I0507 21:21:10.859493 15688 project.cpp:207] class2box1质心=6.94782 2.713 -0.658876
+I0507 21:21:10.859540 15688 project.cpp:207] class2box2质心=9.33103 5.05122 -1.1815
+I0507 21:21:10.859589 15688 project.cpp:207] class2box3质心=8.42819 2.66356 -0.403945
+I0507 21:21:10.859637 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:10.860639 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:10.864320 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:10.986101 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:11.208416 15688 project.cpp:207] class2box0质心=2.94004 -1.85396 -0.446667
+I0507 21:21:11.208501 15688 project.cpp:207] class2box1质心=8.04309 2.98867 -0.835308
+I0507 21:21:11.208550 15688 project.cpp:207] class2box2质心=9.43733 5.07871 -1.17461
+I0507 21:21:11.208596 15688 project.cpp:207] class2box3质心=13.9118 4.5554 -0.649807
+I0507 21:21:11.208639 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:11.209507 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:11.212711 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:11.328567 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:11.555994 15688 project.cpp:207] class2box0质心=4.28448 -2.90662 -0.525573
+I0507 21:21:11.556077 15688 project.cpp:207] class2box1质心=7.32521 2.47383 -0.694438
+I0507 21:21:11.556123 15688 project.cpp:207] class2box2质心=9.09958 4.67913 -1.13863
+I0507 21:21:11.556213 15688 project.cpp:207] class2box3质心=5.96675 4.1232 -0.968214
+I0507 21:21:11.556259 15688 project.cpp:207] class0box4质心=4.73398 0.212825 -0.168605
+I0507 21:21:11.556303 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:11.557318 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:11.562712 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:11.681478 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:11.920742 15688 project.cpp:207] class2box0质心=5.49521 1.19428 -0.896025
+I0507 21:21:11.920830 15688 project.cpp:207] class2box1质心=4.79325 2.65504 -0.754929
+I0507 21:21:11.920892 15688 project.cpp:207] class2box2质心=6.19115 1.20165 -0.263549
+I0507 21:21:11.920930 15688 project.cpp:207] class2box3质心=2.67844 0.270613 -0.173486
+I0507 21:21:11.920975 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:11.921702 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:11.924896 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:12.042456 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:12.271476 15688 project.cpp:207] class2box0质心=2.61372 0.362291 -0.641897
+I0507 21:21:12.271579 15688 project.cpp:207] class2box1质心=6.12441 3.5036 -0.972175
+I0507 21:21:12.271654 15688 project.cpp:207] class2box2质心=7.78256 1.46549 -0.266676
+I0507 21:21:12.271701 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:12.272735 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:12.276238 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:12.407136 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:12.648316 15688 project.cpp:207] class2box0质心=0.444745 -0.081116 -0.528264
+I0507 21:21:12.648408 15688 project.cpp:207] class2box1质心=5.18956 3.10337 -0.859508
+I0507 21:21:12.648478 15688 project.cpp:207] class2box2质心=0.434569 -0.041 -0.110391
+I0507 21:21:12.648519 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:12.649255 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:12.653335 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:12.762313 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:12.977221 15688 project.cpp:207] class2box0质心=-3.13307 -1.0566 -0.336136
+I0507 21:21:12.977308 15688 project.cpp:207] class2box1质心=2.47055 1.55602 -0.541474
+I0507 21:21:12.977357 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:12.978260 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:12.983538 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:13.080382 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:13.291955 15688 project.cpp:207] class2box0质心=-3.21092 -1.28897 -0.401855
+I0507 21:21:13.292050 15688 project.cpp:207] class2box1质心=-6.41318 -1.30489 0.00956589
+I0507 21:21:13.292093 15688 project.cpp:207] class0box2质心=10.1586 -5.52754 -0.466423
+I0507 21:21:13.292140 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:13.292850 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:13.296790 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:13.394876 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:13.604450 15688 project.cpp:207] class2box0质心=1.56717 0.618735 -0.712513
+I0507 21:21:13.604548 15688 project.cpp:207] class2box1质心=-4.74498 -1.13701 -0.0978554
+I0507 21:21:13.604595 15688 project.cpp:207] class2box2质心=0.300676 -0.0282733 -0.200847
+I0507 21:21:13.604638 15688 project.cpp:207] class2box3质心=4.2319 -0.156677 -0.160728
+I0507 21:21:13.604687 15688 project.cpp:207] class2box4质心=-2.24243 -0.128893 -0.0555357
+I0507 21:21:13.604722 15688 project.cpp:207] class2box5质心=5.5573 3.8917 -0.728028
+I0507 21:21:13.604775 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:13.606334 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:13.611378 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:13.730271 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:13.944382 15688 project.cpp:207] class2box0质心=2.0419 1.04684 -0.636597
+I0507 21:21:13.944484 15688 project.cpp:207] class2box1质心=0.887947 0.0331551 -0.398489
+I0507 21:21:13.944530 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:13.945246 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:13.949909 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:14.070546 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:14.288323 15688 project.cpp:207] class2box0质心=4.05777 2.18319 -0.698308
+I0507 21:21:14.288440 15688 project.cpp:207] class2box1质心=2.82889 -0.201793 -0.152337
+I0507 21:21:14.288491 15688 project.cpp:207] class2box2质心=0.204977 0.011 -0.166682
+I0507 21:21:14.288537 15688 project.cpp:207] class2box3质心=1.98882 0.259874 -0.415489
+I0507 21:21:14.288597 15688 project.cpp:207] class2box4质心=1.57583 0.0711151 -0.229317
+I0507 21:21:14.288657 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:14.289712 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:14.293185 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:14.446807 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:14.667359 15688 project.cpp:207] class2box0质心=0.358397 -0.165171 -0.425978
+I0507 21:21:14.667441 15688 project.cpp:207] class2box1质心=3.32657 1.68364 -0.522281
+I0507 21:21:14.667497 15688 project.cpp:207] class2box2质心=3.76652 0.216632 -0.374039
+I0507 21:21:14.667539 15688 project.cpp:207] class2box3质心=-0.332757 0.0792206 -0.133831
+I0507 21:21:14.667574 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:14.668375 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:14.671062 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:14.774238 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:14.981918 15688 project.cpp:207] class2box0质心=2.28301 0.654988 -0.558101
+I0507 21:21:14.982009 15688 project.cpp:207] class2box1质心=7.7756 0.563134 -0.587464
+I0507 21:21:14.982069 15688 project.cpp:207] class0box2质心=-1.20756 -0.232139 -0.347161
+I0507 21:21:14.982127 15688 project.cpp:207] class2box3质心=3.89378 1.98159 -0.491607
+I0507 21:21:14.982187 15688 project.cpp:207] class2box4质心=-0.94217 0.0249255 0.0549149
+I0507 21:21:14.982223 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:14.983142 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:14.987406 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:15.089928 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:15.296162 15688 project.cpp:207] class2box0质心=6.20272 2.78975 -0.934815
+I0507 21:21:15.296254 15688 project.cpp:207] class2box1质心=5.61323 0.439343 -0.328548
+I0507 21:21:15.296311 15688 project.cpp:207] class2box2质心=19.4115 0.154445 -0.00133219
+I0507 21:21:15.296350 15688 project.cpp:207] class0box3质心=5.90792 4.22735 -0.804151
+I0507 21:21:15.296401 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:15.297247 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:15.300875 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:15.397605 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:15.604290 15688 project.cpp:207] class2box0质心=6.88642 3.67709 -1.02436
+I0507 21:21:15.604385 15688 project.cpp:207] class11box1质心=-7.32318 2.70324 -0.986018
+I0507 21:21:15.604446 15688 project.cpp:207] class2box2质心=7.59424 0.613465 -0.599712
+I0507 21:21:15.604496 15688 project.cpp:207] class2box3质心=0.947733 0.113879 -0.546257
+I0507 21:21:15.604540 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:15.605351 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:15.608623 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:15.715173 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:15.929291 15688 project.cpp:207] class2box0质心=6.52597 3.72581 -0.953773
+I0507 21:21:15.929374 15688 project.cpp:207] class2box1质心=15.3318 0.145698 0.013316
+I0507 21:21:15.929419 15688 project.cpp:207] class0box2质心=6.24176 1.22825 -0.810834
+I0507 21:21:15.929463 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:15.930922 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:15.935637 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:16.034507 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:16.246702 15688 project.cpp:207] class29box0质心=-5.47683 2.50423 -0.934972
+I0507 21:21:16.246780 15688 project.cpp:207] class2box1质心=7.6226 4.20818 -0.999885
+I0507 21:21:16.246832 15688 project.cpp:207] class0box2质心=3.80941 0.841061 -0.723459
+I0507 21:21:16.246893 15688 project.cpp:207] class2box3质心=12.6532 0.3244 0.067793
+I0507 21:21:16.246935 15688 project.cpp:207] class2box4质心=3.29238 0.29822 -0.48103
+I0507 21:21:16.246976 15688 project.cpp:207] class0box5质心=-4.13245 -1.26205 -0.222082
+I0507 21:21:16.247017 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:16.248260 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:16.251973 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:16.359174 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:16.613710 15688 project.cpp:207] class57box0质心=8.47143 5.5263 -1.23722
+I0507 21:21:16.613814 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:16.615003 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:16.619879 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:16.734162 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:16.948715 15688 project.cpp:207] class24box0质心=-6.81858 -2.50145 0.0193562
+I0507 21:21:16.948810 15688 project.cpp:207] class2box1质心=-6.81153 -0.683087 0.09509
+I0507 21:21:16.948871 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:16.949681 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:16.953207 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:17.052980 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:17.271734 15688 project.cpp:207] class2box0质心=0.93478 0.262408 -0.478394
+I0507 21:21:17.271826 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:17.272902 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:17.275851 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:17.381110 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:17.609213 15688 project.cpp:207] class2box0质心=0.66523 0.294826 -0.555527
+I0507 21:21:17.609313 15688 project.cpp:207] class2box1质心=5.14312 0.5489 -0.350646
+I0507 21:21:17.609357 15688 project.cpp:207] class2box2质心=9.88052 1.56824 -0.903226
+I0507 21:21:17.609405 15688 project.cpp:207] class2box3质心=8.28612 0.249272 -0.113533
+I0507 21:21:17.609449 15688 project.cpp:207] class2box4质心=9.71549 1.82927 -1.73427
+I0507 21:21:17.609509 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:17.610770 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:17.614498 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:17.722990 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:17.951925 15688 project.cpp:207] class2box0质心=9.59991 1.90037 -0.886404
+I0507 21:21:17.952019 15688 project.cpp:207] class2box1质心=6.36254 0.783102 -0.458881
+I0507 21:21:17.952088 15688 project.cpp:207] class2box2质心=-0.209511 -0.0817841 -0.161716
+I0507 21:21:17.952209 15688 project.cpp:207] class0box3质心=-0.293925 -0.047186 -0.386809
+I0507 21:21:17.952313 15688 project.cpp:207] class2box4质心=8.39163 2.6303 -1.24348
+I0507 21:21:17.952376 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:17.954190 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:17.960825 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:18.069392 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:18.297925 15688 project.cpp:207] class2box0质心=10.1377 2.37892 -1.06092
+I0507 21:21:18.298027 15688 project.cpp:207] class2box1质心=0.468123 0.00585714 -0.3398
+I0507 21:21:18.298100 15688 project.cpp:207] class0box2质心=-5.13298 -3.38772 -0.415622
+I0507 21:21:18.298229 15688 project.cpp:207] class2box3质心=8.03154 3.3783 -1.07361
+I0507 21:21:18.298300 15688 project.cpp:207] class7box4质心=9.13768 0.369596 0.0485817
+I0507 21:21:18.298364 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:18.299743 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:18.303562 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:18.408854 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:18.655819 15688 project.cpp:207] class2box0质心=-14.1314 -2.14044 0.178076
+I0507 21:21:18.655901 15688 project.cpp:207] class2box1质心=3.58133 1.20284 -0.580321
+I0507 21:21:18.655970 15688 project.cpp:207] class2box2质心=-8.89896 -0.945038 0.0200759
+I0507 21:21:18.656016 15688 project.cpp:207] class7box3质心=4.38324 0.162751 -0.021367
+I0507 21:21:18.656057 15688 project.cpp:207] class2box4质心=7.6746 5.16491 -1.01733
+I0507 21:21:18.656098 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:18.656832 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:18.660449 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:18.765782 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:19.013067 15688 project.cpp:207] class7box0质心=2.43289 0.086685 -0.0138408
+I0507 21:21:19.013150 15688 project.cpp:207] class2box1质心=-4.63877 -0.736739 -0.113803
+I0507 21:21:19.013207 15688 project.cpp:207] class7box2质心=6.46022 3.37616 -0.890399
+I0507 21:21:19.013270 15688 project.cpp:207] class2box3质心=-7.95884 -0.751179 0.21803
+I0507 21:21:19.013310 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:19.014119 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:19.018275 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:19.139470 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:19.367504 15688 project.cpp:207] class2box0质心=1.31673 0.179296 -0.364821
+I0507 21:21:19.367605 15688 project.cpp:207] class2box1质心=8.54014 4.5813 -1.05686
+I0507 21:21:19.367674 15688 project.cpp:207] class7box2质心=5.18171 0.259284 -0.1082
+I0507 21:21:19.367734 15688 project.cpp:207] class2box3质心=-20.2924 -2.42715 0.1614
+I0507 21:21:19.367784 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:19.368721 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:19.373070 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:19.498845 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:19.805264 15688 project.cpp:207] class2box0质心=4.71041 0.89583 -0.485427
+I0507 21:21:19.805346 15688 project.cpp:207] class5box1质心=0.568178 -0.0101107 0.0596193
+I0507 21:21:19.805393 15688 project.cpp:207] class0box2质心=-1.30398 0.576565 -0.174095
+I0507 21:21:19.805444 15688 project.cpp:207] class2box3质心=7.25873 4.27434 -1.01659
+I0507 21:21:19.805491 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:19.806206 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:19.810286 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:19.916154 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:20.161495 15688 project.cpp:207] class2box0质心=3.11603 0.602354 -0.406082
+I0507 21:21:20.161599 15688 project.cpp:207] class5box1质心=0.956875 0.1187 -0.0039451
+I0507 21:21:20.161664 15688 project.cpp:207] class2box2质心=-1.64185 -0.341434 -0.253152
+I0507 21:21:20.161710 15688 project.cpp:207] class0box3质心=-6.42241 0.853767 0.0979771
+I0507 21:21:20.161756 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:20.163033 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:20.168715 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:20.288439 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:20.517843 15688 project.cpp:207] class2box0质心=3.61057 0.728808 -0.500731
+I0507 21:21:20.517925 15688 project.cpp:207] class7box1质心=-4.13396 0.213919 -0.00135831
+I0507 21:21:20.517979 15688 project.cpp:207] class2box2质心=-4.10017 -0.286333 -0.033
+I0507 21:21:20.518018 15688 project.cpp:207] class2box3质心=-3.21635 -0.492487 -0.222008
+I0507 21:21:20.518056 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:20.519088 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:20.523099 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:20.625880 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:20.859513 15688 project.cpp:207] class2box0质心=4.43148 0.943553 -0.53944
+I0507 21:21:20.859611 15688 project.cpp:207] class2box1质心=-3.73006 -0.527401 -0.0563642
+I0507 21:21:20.859652 15688 project.cpp:207] class2box2质心=-14.9868 -1.41698 0.35585
+I0507 21:21:20.859699 15688 project.cpp:207] class7box3质心=-2.71744 0.0856119 -0.00704654
+I0507 21:21:20.859745 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:20.861116 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:20.866104 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:20.970407 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:21.204710 15688 project.cpp:207] class2box0质心=6.27619 1.50537 -0.756853
+I0507 21:21:21.204805 15688 project.cpp:207] class2box1质心=6.35731 0.281619 -0.431095
+I0507 21:21:21.204850 15688 project.cpp:207] class7box2质心=-4.51711 0.0963481 0.00543096
+I0507 21:21:21.204896 15688 project.cpp:207] class2box3质心=4.0099 0.465011 -0.526894
+I0507 21:21:21.204941 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:21.205834 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:21.209380 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:21.314864 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:21.551995 15688 project.cpp:207] class2box0质心=2.75605 0.554763 -0.557336
+I0507 21:21:21.552076 15688 project.cpp:207] class2box1质心=25.4423 2.48312 -0.807395
+I0507 21:21:21.552139 15688 project.cpp:207] class7box2质心=-6.58651 0.125956 -0.114021
+I0507 21:21:21.552189 15688 project.cpp:207] class2box3质心=2.17433 0.0284107 -0.438208
+I0507 21:21:21.552227 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:21.553062 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:21.556738 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:21.653208 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:21.890523 15688 project.cpp:207] class2box0质心=4.79205 1.54591 -0.803236
+I0507 21:21:21.890655 15688 project.cpp:207] class2box1质心=0.522301 -0.104348 -0.24589
+I0507 21:21:21.890704 15688 project.cpp:207] class2box2质心=5.61135 0.459842 -0.314526
+I0507 21:21:21.890744 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:21.891963 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:21.897553 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:22.006820 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:22.241009 15688 project.cpp:207] class2box0质心=4.71005 1.76367 -0.810134
+I0507 21:21:22.241184 15688 project.cpp:207] class2box1质心=2.99453 0.360159 -0.543056
+I0507 21:21:22.241261 15688 project.cpp:207] class2box2质心=6.23353 0.508481 -0.362947
+I0507 21:21:22.241325 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:22.242570 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:22.247777 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:22.364897 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:22.603374 15688 project.cpp:207] class2box0质心=9.36739 2.22239 -0.933251
+I0507 21:21:22.603466 15688 project.cpp:207] class2box1质心=10.4114 1.09699 -0.694786
+I0507 21:21:22.603514 15688 project.cpp:207] class2box2质心=6.19535 3.34622 -0.930725
+I0507 21:21:22.603576 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:22.604239 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:22.608839 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:22.764919 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:23.035779 15688 project.cpp:207] class2box0质心=9.13018 2.60285 -1.01916
+I0507 21:21:23.035910 15688 project.cpp:207] class2box1质心=7.41091 0.789397 -0.447517
+I0507 21:21:23.036015 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:23.037277 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:23.041404 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:23.178464 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:23.425891 15688 project.cpp:207] class2box0质心=1.97612 0.257085 -0.214555
+I0507 21:21:23.425992 15688 project.cpp:207] class2box1质心=8.57297 3.02774 -1.04233
+I0507 21:21:23.426052 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:23.427129 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:23.432457 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:23.556648 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:23.791316 15688 project.cpp:207] class2box0质心=6.85049 3.2107 -1.02168
+I0507 21:21:23.791421 15688 project.cpp:207] class2box1质心=1.99854 0.247047 -0.303754
+I0507 21:21:23.791474 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:23.792136 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:23.795958 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:23.920496 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:24.180753 15688 project.cpp:207] class2box0质心=7.9289 1.19926 -0.592266
+I0507 21:21:24.180903 15688 project.cpp:207] class2box1质心=7.19246 3.77048 -1.06555
+I0507 21:21:24.180992 15688 project.cpp:207] class2box2质心=-10.0965 2.01198 0.102788
+I0507 21:21:24.181057 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:24.181854 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:24.186584 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:24.318994 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:24.561782 15688 project.cpp:207] class2box0质心=7.11574 1.24825 -0.488145
+I0507 21:21:24.561863 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:24.563016 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:24.567050 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:24.681267 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:24.919771 15688 project.cpp:207] class2box0质心=6.54021 1.17029 -0.475911
+I0507 21:21:24.919888 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:24.921217 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:24.926188 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:25.059880 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:25.334972 15688 project.cpp:207] class2box0质心=6.5849 1.21295 -0.48845
+I0507 21:21:25.335103 15688 project.cpp:207] class2box1质心=-16.7021 3.24035 0.116771
+I0507 21:21:25.335151 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:25.335846 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:25.340032 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:25.473067 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:25.742436 15688 project.cpp:207] class2box0质心=4.9467 0.876591 -0.472296
+I0507 21:21:25.742518 15688 project.cpp:207] class2box1质心=-11.4084 2.56291 0.0464202
+I0507 21:21:25.742565 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:25.743396 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:25.747429 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:25.861094 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:26.117295 15688 project.cpp:207] class2box0质心=5.41395 1.06249 -0.546962
+I0507 21:21:26.117415 15688 project.cpp:207] class2box1质心=-9.06739 2.35959 0.0606915
+I0507 21:21:26.117499 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:26.118782 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:26.124511 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:26.260576 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:26.533509 15688 project.cpp:207] class2box0质心=-4.92372 1.44943 -0.036206
+I0507 21:21:26.533599 15688 project.cpp:207] class2box1质心=8.31309 2.04042 -0.861623
+I0507 21:21:26.533655 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:26.534586 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:26.539412 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:26.666922 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:26.920723 15688 project.cpp:207] class2box0质心=-2.70742 0.828497 -0.0461365
+I0507 21:21:26.920830 15688 project.cpp:207] class2box1质心=8.3379 2.19947 -0.878359
+I0507 21:21:26.920889 15688 project.cpp:207] class2box2质心=-0.905916 0.878045 -0.0760387
+I0507 21:21:26.920939 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:26.922060 15688 project.cpp:286] 4. project picture is published!
+I0507 21:21:26.926214 15688 project.cpp:256] 1. LOAD the Lidar and image frame Done!
+I0507 21:21:27.054244 15688 project.cpp:262] 2. Detect the Frame classificator Done!
+I0507 21:21:27.322455 15688 project.cpp:207] class2box0质心=8.8025 2.61458 -0.956944
+I0507 21:21:27.322553 15688 project.cpp:207] class2box1质心=-2.53575 0.770343 -0.0504487
+I0507 21:21:27.322603 15688 project.cpp:268] 3. Draw the point intpo  ROI Done!
+I0507 21:21:27.323097 15688 project.cpp:286] 4. project picture is published!
