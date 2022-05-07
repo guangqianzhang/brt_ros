@@ -24,7 +24,7 @@
 #include "pcl_ros/transforms.h"
 #include <Eigen/Dense>
 #include <ros/package.h>
-
+#include <Eigen/Core>
 #include <opencv/cv.hpp>
 #include <tf/tf.h>
 #include <tf/transform_broadcaster.h>
@@ -32,6 +32,7 @@
 #include "dataStructures.h"
 #include <opencv2/dnn.hpp>
 
+#include <pcl/common/transforms.h>
 #include <pcl/filters/voxel_grid.h>
 #include <pcl/filters/extract_indices.h>
 
@@ -70,6 +71,7 @@ namespace DetectandTract
 
         float confThreshold;
         float nmsThreshold; // Non-maximum suppression threshold
+        float shrinkFactor ;
         bool bVis;
 
         // crop lidar points
@@ -83,6 +85,10 @@ namespace DetectandTract
             cv::Mat RT;
         } i_params;
 
+        struct out_messages{
+            Eigen::Vector4cf centroid_;
+
+        }out_msgs;
         void projection_callback(const sensor_msgs::Image::ConstPtr &img,
                                  const sensor_msgs::PointCloud2::ConstPtr &pc);
         void initParams();
@@ -90,7 +96,11 @@ namespace DetectandTract
         void VoxelGridPoints(PointCloud_P cloud_, float size, PointCloud_P cloud_out);
         void clip_down(double clip_height, const PointCloud_P in, const PointCloud_P cloud_out);
 
+        void clusterLidarWithROI(std::vector<BoundingBox> &boundingBoxes, pcl::PointCloud<pcl::PointXYZ>::Ptr lidarPoints);
+
         void drawImage(BoundingBox box, cv::Mat &img,std::vector<std::string> classes);
+        void drawPoint(cv::Mat &img,cv::Point pt);
+        void centroid(Eigen::Vector4cf centroid,PointCloud_P cloud_p);
     public:
         projector();
     };

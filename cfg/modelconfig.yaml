@@ -11,3 +11,5 @@ confThreshold: 0.2
 nmsThreshold: 0.4
 bVis: false
 
+shrinkFactor: 0.10
+

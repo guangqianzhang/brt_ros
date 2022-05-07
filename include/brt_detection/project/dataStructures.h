@@ -3,7 +3,8 @@
 
 #include <vector>
 #include <opencv2/core.hpp>
-
+#include <pcl/point_types.h>
+#include <pcl/point_cloud.h>
 struct LidarPoint { // single lidar point in space
     double x,y,z,r; // x,y,z in [m], r is point reflectivity
 };
@@ -17,22 +18,14 @@ struct BoundingBox { // bounding box around a classified object (contains both 2
     int classID; // ID based on class file provided to YOLO framework
     double confidence; // classification trust
 
-    std::vector<LidarPoint> lidarPoints; // Lidar 3D points which project into 2D image roi
+    std::vector<pcl::PointXYZ> lidarPoints; // Lidar 3D points which project into 2D image roi
     // std::vector<cv::KeyPoint> keypoints; // keypoints enclosed by 2D roi
     // std::vector<cv::DMatch> kptMatches; // keypoint matches enclosed by 2D roi
 };
 struct DataFrame { // represents the available sensor information at the same time instance
     
-        cv::Mat cameraImg; // camera image
-        
-      
-
-              
+        cv::Mat cameraImg; // camera image    
         std::vector<BoundingBox> boundingBoxes; // ROI around detected objects in 2D image coordinates
-        std::map<int,int> bbMatches; // bounding box matches between previous and current frame
-  
-        
-    
-
+       
 };
 #endif /* dataStructures_h */
