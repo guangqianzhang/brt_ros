@@ -1,0 +1,4 @@
+Log file created at: 2022/06/02 18:55:27
+Running on machine: brt-b
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0602 18:55:27.852496 17472 vision_camera_node.cpp:10] /home/brt/Documents/catktin_brt/src/vision_camera/Log

@@ -1,0 +1,102 @@
+Log file created at: 2022/06/01 09:14:31
+Running on machine: brt-b
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0601 09:14:31.098258  9736 vision_camera_node.cpp:10] /home/brt/Documents/catktin_brt/src/vision_camera/Log
+I0601 09:14:31.103595  9736 Yolo.cpp:26] /vision_camera_nodecamera_topic:/hik_cam_node/hik_camera
+I0601 09:14:31.105862  9736 Yolo.cpp:29] /vision_camera_nodecamera_topic_out:/project_pc_image
+I0601 09:14:31.108327  9736 Yolo.cpp:44] /vision_camera_node:isGpu:1
+I0601 09:14:31.109473  9736 Yolo.cpp:45] /vision_camera_node:medel_path:/home/brt/Documents/model/yolo
+I0601 09:14:31.110427  9736 Yolo.cpp:46] /vision_camera_node:yoloclassfile:/home/brt/Documents/model/yolo/coco.names
+I0601 09:14:31.110949  9736 Yolo.cpp:47] /vision_camera_node:yoloModelConfiguration:/home/brt/Documents/model/yolo/yolov4-tiny.cfg
+I0601 09:14:31.110966  9736 Yolo.cpp:48] /vision_camera_node:yoloModelWeights:/home/brt/Documents/model/yolo/yolov4-tiny.weights
+I0601 09:14:35.541424  9736 Yolo.cpp:77] have done detect image! spend time4.6e-07ms
+I0601 09:14:35.573467  9736 Yolo.cpp:77] have done detect image! spend time5.08e-07ms
+I0601 09:14:35.622063  9736 Yolo.cpp:77] have done detect image! spend time4.28e-07ms
+I0601 09:14:35.653892  9736 Yolo.cpp:77] have done detect image! spend time4.35e-07ms
+I0601 09:14:35.685689  9736 Yolo.cpp:77] have done detect image! spend time5.57e-07ms
+I0601 09:14:35.734889  9736 Yolo.cpp:77] have done detect image! spend time5.77e-07ms
+I0601 09:14:35.781409  9736 Yolo.cpp:77] have done detect image! spend time5.1e-07ms
+I0601 09:14:35.816864  9736 Yolo.cpp:77] have done detect image! spend time7.73e-07ms
+I0601 09:14:35.848031  9736 Yolo.cpp:77] have done detect image! spend time4.65e-07ms
+I0601 09:14:35.879156  9736 Yolo.cpp:77] have done detect image! spend time4.5e-07ms
+I0601 09:14:35.929574  9736 Yolo.cpp:77] have done detect image! spend time4.56e-07ms
+I0601 09:14:35.963604  9736 Yolo.cpp:77] have done detect image! spend time5.66e-07ms
+I0601 09:14:36.012709  9736 Yolo.cpp:77] have done detect image! spend time4.49e-07ms
+I0601 09:14:36.048347  9736 Yolo.cpp:77] have done detect image! spend time5.43e-07ms
+I0601 09:14:36.082391  9736 Yolo.cpp:77] have done detect image! spend time5.13e-07ms
+I0601 09:14:36.133050  9736 Yolo.cpp:77] have done detect image! spend time6.54e-07ms
+I0601 09:14:36.167650  9736 Yolo.cpp:77] have done detect image! spend time4.92e-07ms
+I0601 09:14:36.231500  9736 Yolo.cpp:77] have done detect image! spend time6.34e-07ms
+I0601 09:14:36.262562  9736 Yolo.cpp:77] have done detect image! spend time4.9e-07ms
+I0601 09:14:36.294569  9736 Yolo.cpp:77] have done detect image! spend time5.04e-07ms
+I0601 09:14:36.330176  9736 Yolo.cpp:77] have done detect image! spend time4.53e-07ms
+I0601 09:14:36.376655  9736 Yolo.cpp:77] have done detect image! spend time6.04e-07ms
+I0601 09:14:36.408383  9736 Yolo.cpp:77] have done detect image! spend time5.86e-07ms
+I0601 09:14:36.455682  9736 Yolo.cpp:77] have done detect image! spend time4.42e-07ms
+I0601 09:14:36.490048  9736 Yolo.cpp:77] have done detect image! spend time5.02e-07ms
+I0601 09:14:36.526448  9736 Yolo.cpp:77] have done detect image! spend time8.1e-07ms
+I0601 09:14:36.572265  9736 Yolo.cpp:77] have done detect image! spend time4.67e-07ms
+I0601 09:14:36.621971  9736 Yolo.cpp:77] have done detect image! spend time4.38e-07ms
+I0601 09:14:36.653259  9736 Yolo.cpp:77] have done detect image! spend time4.58e-07ms
+I0601 09:14:36.687599  9736 Yolo.cpp:77] have done detect image! spend time4.11e-07ms
+I0601 09:14:36.737504  9736 Yolo.cpp:77] have done detect image! spend time4.24e-07ms
+I0601 09:14:36.772222  9736 Yolo.cpp:77] have done detect image! spend time4.44e-07ms
+I0601 09:14:36.821847  9736 Yolo.cpp:77] have done detect image! spend time4.33e-07ms
+I0601 09:14:36.853482  9736 Yolo.cpp:77] have done detect image! spend time5.31e-07ms
+I0601 09:14:36.884778  9736 Yolo.cpp:77] have done detect image! spend time4.61e-07ms
+I0601 09:14:36.935199  9736 Yolo.cpp:77] have done detect image! spend time5.35e-07ms
+I0601 09:14:36.966627  9736 Yolo.cpp:77] have done detect image! spend time5.86e-07ms
+I0601 09:14:36.998930  9736 Yolo.cpp:77] have done detect image! spend time5.06e-07ms
+I0601 09:14:37.050359  9736 Yolo.cpp:77] have done detect image! spend time5.27e-07ms
+I0601 09:14:37.084228  9736 Yolo.cpp:77] have done detect image! spend time5.71e-07ms
+I0601 09:14:37.119738  9736 Yolo.cpp:77] have done detect image! spend time7.43e-07ms
+I0601 09:14:37.168705  9736 Yolo.cpp:77] have done detect image! spend time9.99e-07ms
+I0601 09:14:37.202764  9736 Yolo.cpp:77] have done detect image! spend time8.78e-07ms
+I0601 09:14:37.249317  9736 Yolo.cpp:77] have done detect image! spend time5.76e-07ms
+I0601 09:14:37.309877  9736 Yolo.cpp:77] have done detect image! spend time4.78e-07ms
+I0601 09:14:37.328250  9736 Yolo.cpp:77] have done detect image! spend time1.168e-06ms
+I0601 09:14:37.373370  9736 Yolo.cpp:77] have done detect image! spend time5.96e-07ms
+I0601 09:14:37.389422  9736 Yolo.cpp:77] have done detect image! spend time3.97e-07ms
+I0601 09:14:37.451771  9736 Yolo.cpp:77] have done detect image! spend time7.73e-07ms
+I0601 09:14:37.483825  9736 Yolo.cpp:77] have done detect image! spend time5.94e-07ms
+I0601 09:14:37.534197  9736 Yolo.cpp:77] have done detect image! spend time4.43e-07ms
+I0601 09:14:37.567966  9736 Yolo.cpp:77] have done detect image! spend time5.48e-07ms
+I0601 09:14:37.602450  9736 Yolo.cpp:77] have done detect image! spend time5.41e-07ms
+I0601 09:14:37.650967  9736 Yolo.cpp:77] have done detect image! spend time6.23e-07ms
+I0601 09:14:37.700253  9736 Yolo.cpp:77] have done detect image! spend time4.44e-07ms
+I0601 09:14:37.736001  9736 Yolo.cpp:77] have done detect image! spend time5.32e-07ms
+I0601 09:14:37.769922  9736 Yolo.cpp:77] have done detect image! spend time5.58e-07ms
+I0601 09:14:37.819213  9736 Yolo.cpp:77] have done detect image! spend time6.47e-07ms
+I0601 09:14:37.853916  9736 Yolo.cpp:77] have done detect image! spend time4.62e-07ms
+I0601 09:14:37.888128  9736 Yolo.cpp:77] have done detect image! spend time4.73e-07ms
+I0601 09:14:37.924238  9736 Yolo.cpp:77] have done detect image! spend time5.04e-07ms
+I0601 09:14:37.971863  9736 Yolo.cpp:77] have done detect image! spend time4.4e-07ms
+I0601 09:14:38.004438  9736 Yolo.cpp:77] have done detect image! spend time4.44e-07ms
+I0601 09:14:38.053454  9736 Yolo.cpp:77] have done detect image! spend time5.46e-07ms
+I0601 09:14:38.102481  9736 Yolo.cpp:77] have done detect image! spend time5.68e-07ms
+I0601 09:14:38.137378  9736 Yolo.cpp:77] have done detect image! spend time4.86e-07ms
+I0601 09:14:38.171177  9736 Yolo.cpp:77] have done detect image! spend time4.62e-07ms
+I0601 09:14:38.220587  9736 Yolo.cpp:77] have done detect image! spend time4.36e-07ms
+I0601 09:14:38.252364  9736 Yolo.cpp:77] have done detect image! spend time5.71e-07ms
+I0601 09:14:38.301707  9736 Yolo.cpp:77] have done detect image! spend time4.32e-07ms
+I0601 09:14:38.321058  9736 Yolo.cpp:77] have done detect image! spend time5.52e-07ms
+I0601 09:14:38.367750  9736 Yolo.cpp:77] have done detect image! spend time5.33e-07ms
+I0601 09:14:38.399106  9736 Yolo.cpp:77] have done detect image! spend time4.08e-07ms
+I0601 09:14:38.446362  9736 Yolo.cpp:77] have done detect image! spend time4.41e-07ms
+I0601 09:14:38.477331  9736 Yolo.cpp:77] have done detect image! spend time4.81e-07ms
+I0601 09:14:38.526558  9736 Yolo.cpp:77] have done detect image! spend time4.73e-07ms
+I0601 09:14:38.572407  9736 Yolo.cpp:77] have done detect image! spend time4.76e-07ms
+I0601 09:14:38.603672  9736 Yolo.cpp:77] have done detect image! spend time4.29e-07ms
+I0601 09:14:38.651115  9736 Yolo.cpp:77] have done detect image! spend time9.51e-07ms
+I0601 09:14:38.681795  9736 Yolo.cpp:77] have done detect image! spend time4.73e-07ms
+I0601 09:14:38.730743  9736 Yolo.cpp:77] have done detect image! spend time4.38e-07ms
+I0601 09:14:38.762094  9736 Yolo.cpp:77] have done detect image! spend time4.23e-07ms
+I0601 09:14:38.811883  9736 Yolo.cpp:77] have done detect image! spend time4.49e-07ms
+I0601 09:14:38.846329  9736 Yolo.cpp:77] have done detect image! spend time4.67e-07ms
+I0601 09:14:38.894644  9736 Yolo.cpp:77] have done detect image! spend time4.41e-07ms
+I0601 09:14:38.914590  9736 Yolo.cpp:77] have done detect image! spend time4.5e-07ms
+I0601 09:14:38.962854  9736 Yolo.cpp:77] have done detect image! spend time4.3e-07ms
+I0601 09:14:39.012534  9736 Yolo.cpp:77] have done detect image! spend time7.36e-07ms
+I0601 09:14:39.044037  9736 Yolo.cpp:77] have done detect image! spend time4.98e-07ms
+I0601 09:14:39.075273  9736 Yolo.cpp:77] have done detect image! spend time5.48e-07ms
+I0601 09:14:39.126436  9736 Yolo.cpp:77] have done detect image! spend time4.52e-07ms

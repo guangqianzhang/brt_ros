@@ -1,0 +1,12 @@
+Log file created at: 2022/06/01 14:46:37
+Running on machine: brt-b
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0601 14:46:37.735898 11798 vision_camera_node.cpp:10] /home/brt/Documents/catktin_brt/src/vision_camera/Log
+I0601 14:46:37.748015 11798 Yolo.cpp:27] /vision_camera_nodecamera_topic:/hik_cam_node/hik_camera
+I0601 14:46:37.749420 11798 Yolo.cpp:30] /vision_camera_nodecamera_topic_vision:/project_vision_image
+I0601 14:46:37.750628 11798 Yolo.cpp:32] /vision_camera_nodecamera_topic_fusion:/project_msg_image
+I0601 14:46:37.752735 11798 Yolo.cpp:43] /vision_camera_node:isGpu:1
+I0601 14:46:37.753919 11798 Yolo.cpp:44] /vision_camera_node:medel_path:/home/brt/Documents/model/yolo
+I0601 14:46:37.753943 11798 Yolo.cpp:45] /vision_camera_node:yoloclassfile:/home/brt/Documents/model/yolo/coco.names
+I0601 14:46:37.753952 11798 Yolo.cpp:46] /vision_camera_node:yoloModelConfiguration:/home/brt/Documents/model/yolo/yolov4-tiny.cfg
+I0601 14:46:37.753960 11798 Yolo.cpp:47] /vision_camera_node:yoloModelWeights:/home/brt/Documents/model/yolo/yolov4-tiny.weights

@@ -1,0 +1,39 @@
+<launch>
+      <!-- Console launch prefix -->
+  <arg name="launch_prefix" default=""/>
+  <arg name="camera_topic_raw" default="/hik_cam_node/hik_camera"/>
+  <arg name="camera_topic_msg" default="/detect_image_msg"/>
+  <arg name="camera_topic_vision" default="/detect_vision_image"/>
+  <arg name="rs_lidar_topic" default="/rslidar_points"/>
+  <arg name="a_lidar_topic" default="/detection/lidar_detector/points_cluster"/>
+  <arg name="lidar_Array_topic" default="/detection/lidar_detector/objects"/>
+  <!-- 150/90 --> 
+  <!-- 75/55 -->
+  <arg name ="adjust_x" default="75"/>
+  <arg name ="adjust_y" default="55"/>
+  <arg name ="overlap_threshold" default="0.5"/>
+  
+  <include file="$(find lidar_cnn_seg_detect)/launch/lidar_cnn_seg_detect.launch" />
+<!-- 启动manager 管理器 -->
+    <node pkg="nodelet" type="nodelet" name="vision_nodelet_manager" 
+    args="manager" output="screen" />
+    <!-- 启动节点 -->
+    <node pkg="nodelet" type="nodelet" name="yolo_detection" 
+    args="load brt/yolo_detect vision_nodelet_manager" output="screen" launch-prefix="$(arg launch_prefix)">
+
+        <param name="camera_topic" value="$(arg camera_topic_raw)"/>
+        <param name="camera_topic_msg" value="$(arg camera_topic_msg)"/>
+        <param name="camera_topic_vision" value="$(arg camera_topic_vision)" />
+    </node>
+    <node pkg="nodelet" type="nodelet" name="fusion_project" 
+    args="load brt/fusion_project vision_nodelet_manager" output="screen">
+        <param name="vision_msgs_topic" value="$(arg camera_topic_msg)"/>
+        <param name="pointcluster" value="$(arg lidar_Array_topic)"/>
+
+        <param name= "adjust_x" type="int" value="$(arg adjust_x)"/>
+        <param name="adjust_y" type="int" value="$(arg adjust_y)"/>
+        <param name="overlap_threshold" type="double" value="$(arg overlap_threshold)"/>
+    </node>
+
+
+</launch>

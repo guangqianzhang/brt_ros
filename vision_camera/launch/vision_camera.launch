@@ -1,0 +1,54 @@
+
+<launch>
+    <arg name="camera_topic_raw" default="/hik_cam_node/hik_camera"/>
+    <arg name="rs_lidar_topic" default="/rslidar_points"/>
+
+    <arg name="camera_topic_vision" default="/detect_vision_image"/>
+    <arg name="camera_topic_msg" default="/detect_msg_image"/>
+    <arg name="camera_topic_info" default="/camera_topic_info"/>
+    <arg name="isGpu"  default="true"/>
+    <arg name="camera_frame_id" default="/rslidar"/>
+    <arg name ="camera_width" default="640"/>
+    <arg name ="camera_height" default="480"/>
+     <arg name ="adjust_x" default="20"/>
+     <arg name ="adjust_y" default="120"/>
+
+    <arg name="lidar_topic_cluster" default="/detection/lidar_detector/points_cluster"/>
+
+    <arg name="WORK_SPACE_PATH" default="$(find  vision_camera)"/>
+    
+   <!-- <arg name="shrinkFactor" default="0.1" doc=" "/>  -->
+    <!-- <node pkg="vision_camera" type="vision_camera_node" name="vision_camera_node" output="screen">
+        <param name="camera_topic" value="$(arg camera_topic_raw)" />
+  
+        <param name="camera_topic_vision" value="$(arg camera_topic_vision)" />
+        <param name="camera_topic_msg" value="$(arg camera_topic_msg)" />
+        <param name="camera_topic_info" value="$(arg camera_topic_info)" />
+
+         <param name="isGpu" type="bool" value="$(arg isGpu)" /> 
+         <param name="camera_height" type="int" value="$(arg camera_height)"/>
+         <param name="camera_width" type="int" value="$(arg camera_width)"/>
+        <param name="WORK_SPACE_PATH"  value="$(arg WORK_SPACE_PATH)"/>
+
+        <param name= "adjust_x" type="int" value="$(arg adjust_x)"/>
+        <param name="adjust_y" type="int" value="$(arg adjust_y)"/>
+
+    </node> -->
+    <include file="/home/brt/Documents/catktin_Pro_test/src/vision_camera/launch/nodelet1.launch">
+        <param name="camera_topic" value="$(arg camera_topic_raw)" />
+  
+        <param name="camera_topic_vision" value="$(arg camera_topic_vision)" />
+        <param name="camera_topic_msg" value="$(arg camera_topic_msg)" />
+        <param name="camera_topic_info" value="$(arg camera_topic_info)" />
+
+         <param name="isGpu" type="bool" value="$(arg isGpu)" /> 
+         <param name="camera_height" type="int" value="$(arg camera_height)"/>
+         <param name="camera_width" type="int" value="$(arg camera_width)"/>
+        <param name="WORK_SPACE_PATH"  value="$(arg WORK_SPACE_PATH)"/>
+
+        <param name= "adjust_x" type="int" value="$(arg adjust_x)"/>
+        <param name="adjust_y" type="int" value="$(arg adjust_y)"/>
+      </include>
+
+
+</launch>
