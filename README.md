@@ -30,4 +30,4 @@
 4. 消息同步节点是否由数据输入输出。 `detect_nodelet`
  开发
 
-融合消息后消息通过话题 `sync/fused_msg` 发出，消息类型是功能包中`DetectedObjectArray`，*所以二次开发时需要引入消息功能包`rockauto_msgs`*。
+融合消息后消息通过话题 `sync/fused_msg` 发出，消息类型是功能包中`DetectedObjectArray`，**所以二次开发时需要引入消息功能包`rockauto_msgs`**。
