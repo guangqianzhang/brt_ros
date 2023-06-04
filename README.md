@@ -18,16 +18,21 @@
 ## 使用 
 
  启动
-    `roslaunch detect_nodelet nodelet.launch`
+    
+    
+    
    
 
 如果不能启动请利用  `rqt` 依次检查 节点消息
 1. 海康摄像头是否接入 `hikvision_ros` 、网设置是否正确，官方提供的动态库是否需要更新。
-    仓库为  https://github.com/guangqianzhang/hika_ros.git
+    仓库为  https://github.com/guangqianzhang/hika_ros.git  
+    启动相机  进入ros目录 `roslaunch hikvision_ros hik.launch`
 2. 雷达是否接入  `ros_rslidar` 、雷达网口设置是否正确。
     仓库为 https://github.com/RoboSense-LiDAR/ros_rslidar.git
+    启动雷达  进入ros目录 `roslaunch rslidar_pointcloud rs_lidar_16.launch`
 3. 雷达检测  `lidar_cnn_seg_detect`
 4. 消息同步节点是否由数据输入输出。 `detect_nodelet`
+    启动检测 融合节点 进入ros目录  `roslaunch detect_nodelet nodelet.launch`
  开发
 
 融合消息后消息通过话题 `sync/fused_msg` 发出，消息类型是功能包中`DetectedObjectArray`，**所以二次开发时需要引入消息功能包`rockauto_msgs`**。

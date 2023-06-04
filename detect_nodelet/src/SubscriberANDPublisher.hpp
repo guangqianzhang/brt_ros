@@ -164,6 +164,7 @@ void subscriberANDpublisher::callback(const rockauto_msgs::ImageObjConstPtr &ima
                 fused_object.valid = it->valid;
                 fused_object.pose.position = it->pose.position;
                 fused_object.dimensions = it->dimensions;
+                fused_object.velocity=it->velocity;
                 Rect_final.x = (range_rect.x < vision_rect.x) ? range_rect.x : vision_rect.x;
                 Rect_final.y = (range_rect.y < vision_rect.y) ? range_rect.y : vision_rect.y;
                 Rect_final.width = range_rect.width + vision_rect.width - overlap.width;
