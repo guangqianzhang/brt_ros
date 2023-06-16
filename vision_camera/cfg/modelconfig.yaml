@@ -1,0 +1,10 @@
+medel_path: "/home/brt/Documents/model/yolo"
+yoloclassfile: "/coco.names"
+yoloModelConfiguration: "/yolov4-tiny.cfg"
+yoloModelWeights: "/yolov4-tiny.weights"
+Gpu: true
+# isGpu: true
+confThreshold: 0.2
+nmsThreshold: 0.4
+shrinkFactor: 0.10
+

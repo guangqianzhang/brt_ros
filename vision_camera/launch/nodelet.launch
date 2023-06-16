@@ -1,0 +1,18 @@
+<launch>
+      <!-- Console launch prefix -->
+  <arg name="launch_prefix" default=""/>
+
+
+<!-- 启动manager 管理器 -->
+    <node pkg="nodelet" type="nodelet" name="darknet_ros_nodelet_manager" args="manager" output="screen" />
+    <!-- 启动节点 -->
+    <node pkg="nodelet" type="nodelet" name="p1" args="load darknet_ros_nodelet darknet_ros_nodelet_manager" output="screen" launch-prefix="$(arg launch_prefix)">
+        <!-- <param name="value" value="100" />
+        <remap from="/p1/out" to="con" /> -->
+    </node>
+    <!-- <node pkg="nodelet" type="nodelet" name="p2" args="load demo04_nodelet/MyPlus my" output="screen">
+        <param name="value" value="-50" />
+        <remap from="/p2/in" to="con" />
+    </node> -->
+
+</launch>

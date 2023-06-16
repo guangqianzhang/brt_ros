@@ -1,0 +1,17 @@
+<class_libraries>
+
+  <library path="lib/libyolo">
+      <class name="brt/yolo_detect" type="vision_detection::yolo_plug_in" base_class_type="nodelet::Nodelet">
+        <description>
+          A description of detection
+        </description>
+      </class>
+    </library>
+    <library path="lib/libproject">
+      <class name="brt/fusion_project" type="projetction::project_plug" base_class_type="nodelet::Nodelet">
+        <description>
+          A description of detection
+        </description>
+      </class>
+    </library>
+</class_libraries>
