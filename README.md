@@ -9,19 +9,15 @@
 修改了 rockauto_msgs 中 ImageObj.msg 等文件， 
 ### 代码结构
 
-|  输入   | 算法  | 融合 |输出|
-|  ----  | ----  |----|----|
-| 摄像头  | YOLO（nodelet） | |  |
-|| |检测框投影融合|检测目标 `rockauto_msgs::DetectedObjectArray(fused_objects)`|
+|  输入   | 算法  | 融合 |track|输出|
+|  ----  | ----  |---|---|----|
+| 摄像头  | YOLO（nodelet） | |  | |
+|| |检测框投影融合|检测目标 `rockauto_msgs::DetectedObjectArray(fused_objects)`|byteTrack|
 | 雷达  | Apollo（cnn_seg） | ||
 
 ## 使用 
 
  启动
-    
-    
-    
-   
 
 如果不能启动请利用  `rqt` 依次检查 节点消息
 1. 海康摄像头是否接入 `hikvision_ros` 、网设置是否正确，官方提供的动态库是否需要更新。
@@ -33,7 +29,7 @@
     启动雷达  进入ros目录 `roslaunch rslidar_pointcloud rs_lidar_16.launch`
 3. 雷达检测  `lidar_cnn_seg_detect`
 4. 消息同步节点是否由数据输入输出。 `detect_nodelet`
-     
+5. `2023/6/16` 启动跟踪。 目前跟踪输入为融合后目标 。`rosun tracker track_node`
      启动检测 融合节点 进入ros目录  `roslaunch detect_nodelet nodelet.launch`
  开发
 
