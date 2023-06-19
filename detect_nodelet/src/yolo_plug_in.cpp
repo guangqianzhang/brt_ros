@@ -96,18 +96,18 @@ namespace vision_detection
 			// imagObj.roi_image=*image;
 			imagObj.roi_image=*img;
 			
-	for (auto it = yoloRet.begin(); it != yoloRet.end(); ++it)
-	{
-		rockauto_msgs::ImageRect imagrect;
-		imagObj.type.push_back((*it).label);
-		imagrect.x = (*it).rect.x;
-		imagrect.y = (*it).rect.y;
-		imagrect.height = (*it).rect.height;
-		imagrect.width = (*it).rect.width;
-		imagrect.score = (*it).confidences;
-		imagObj.obj.push_back(imagrect);
-	}
-	vision_detect_msg_pub_.publish(imagObj);
+            for (auto it = yoloRet.begin(); it != yoloRet.end(); ++it)
+            {
+                rockauto_msgs::ImageRect imagrect;
+                imagObj.type.push_back((*it).label);
+                imagrect.x = (*it).rect.x;
+                imagrect.y = (*it).rect.y;
+                imagrect.height = (*it).rect.height;
+                imagrect.width = (*it).rect.width;
+                imagrect.score = (*it).confidences;
+                imagObj.obj.push_back(imagrect);
+            }
+            vision_detect_msg_pub_.publish(imagObj);
 
 	}
 

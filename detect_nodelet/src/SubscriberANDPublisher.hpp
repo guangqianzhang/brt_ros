@@ -176,25 +176,26 @@ void subscriberANDpublisher::callback(const rockauto_msgs::ImageObjConstPtr &ima
                     Rect_final.width = range_rect.width + vision_rect.width - overlap.width;
                     Rect_final.height = range_rect.height + vision_rect.height - overlap.height;
 
-                    // for track
-                    fused_object.image_frame = "hik";
-                    fused_object.x = Rect_final.x;
-                    fused_object.y = Rect_final.y;
-                    fused_object.width = Rect_final.width;
-                    fused_object.height = Rect_final.height;
-
-                    fused_object.score = image_obj[i].score;
-                    fused_object.label = image_labe[i];
                     iou = (double)overlap.area() / vision_rect_area;
                     drawrectangleIOU(raw_img, Rect_final, image_labe[i], iou);
                     std::cout << "position: " << fused_object.pose.position << std::endl;
 
                     fused_objects.objects.push_back(fused_object);
-                }
-            }
-        } // eof loop over all bounding boxes
+                } // 只更新3d位置和大小
 
-    } // end of objs
+                     // for track
+                    fused_object.image_frame = "hik";
+                    fused_object.x = vision_rect.x;
+                    fused_object.y = vision_rect.y;
+                    fused_object.width = vision_rect.width;
+                    fused_object.height = vision_rect.height;
+                    fused_object.score = image_obj[i].score;
+                    fused_object.label = image_labe[i];
+                    
+            }  // end of if (image_labe[i] == "car" || image_labe[i] == "bus")
+        } // end of  image objs
+
+    } // end of lidar objs
 
     // std::cout << imageBox << std::endl;
     // cv::rectangle(raw_img, cv::Point(0, 0), cv::Point(imageBox.width, imageBox.height), cv::Scalar(0, 255, 0), 2);

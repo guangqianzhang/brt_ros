@@ -101,6 +101,8 @@ std::string Track_Ros::Getlabel(int id)
 
 void Track_Ros::callback(const rockauto_msgs::DetectedObjectArray::ConstPtr &msg)
 {
+    //////////////////////////////////////////////////////////
+    /////////////////////数据预处理////////////////////////////
     ROS_INFO("Received message: %lu", sizeof(*msg));
         sensor_msgs::Image img =msg->image;
     cv_bridge::CvImagePtr cv_ptr;
@@ -132,11 +134,16 @@ void Track_Ros::callback(const rockauto_msgs::DetectedObjectArray::ConstPtr &msg
 
         objects.push_back(object);
     }
+    ////////////////////////////////////////////////////////////////////
+    //////////////////////开始跟踪///////////////////////////////////////
     auto track_start = chrono::system_clock::now();
     vector<STrack> output_stracks = trackerPtr->update(objects);
     auto end = chrono::system_clock::now();
     int tack_ms = chrono::duration_cast<chrono::microseconds>(end - track_start).count();
     cout << "tracker takes (MS): " << (float)tack_ms / 1000 << endl;
+
+    ////////////////////////////////////////////////////////////////
+    ///////////////////////数据发送/////////////////////////////////
     rockauto_msgs::DetectedObjectArray ObjectArray;
     rockauto_msgs::DetectedObject Object;
     for (auto it = output_stracks.begin(); it != output_stracks.end(); ++it)
@@ -152,7 +159,7 @@ void Track_Ros::callback(const rockauto_msgs::DetectedObjectArray::ConstPtr &msg
         Object.pose.position.y = it->position[1];
         Object.pose.position.z = it->position[2];
         // Object.label=Getlabel(it->label);
-        drawrectangle(raw_img, it->tlwh, it->track_id);
+        drawrectangle(raw_img, it->tlwh, it->track_id,float(Object.pose.position.x));
         ObjectArray.objects.push_back(Object);
     }
     chatter_pub.publish(ObjectArray);
@@ -166,10 +173,10 @@ Scalar Track_Ros::get_color(int idx)
     idx += 3;
     return Scalar(37 * idx % 255, 17 * idx % 255, 29 * idx % 255);
 }
-void Track_Ros::drawrectangle(cv::Mat &img, vector<float> tlwh, int track_id)
+void Track_Ros::drawrectangle(cv::Mat &img, vector<float> tlwh, int track_id,float x)
 {
     cv::Scalar s = get_color(track_id);
-    putText(img, format("%d", track_id), Point(tlwh[0], tlwh[1] - 5),
+    putText(img, format("%d dis_x:%f", track_id,x), Point(tlwh[0], tlwh[1] - 5),
             0, 0.6, Scalar(0, 0, 255), 2, cv::LINE_AA);
     cv::rectangle(img, cv::Rect(tlwh[0], tlwh[1], tlwh[2], tlwh[3]), s, 2);
 }
