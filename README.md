@@ -6,6 +6,7 @@
   + 点云检测依靠于autoware 的聚类检测。 https://github.com/guangqianzhang/preception_lidar_autoware.git
   + 融合依据为目标iou。由于点云稀疏，远处目标较小。故iou做了写改变。
   + 整个融合消息使用`autoware_msgs`。文件位于上述autoware仓库。
+  + tracker实现了ros框架下的byteTrack算法。需要根据需要修改配置检测消息。
 
 + 使用
   + 每个功能包目前需要单独运行。c++实现功能包只需执行该包`launch`文件。
