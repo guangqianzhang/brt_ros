@@ -1,0 +1,14 @@
+<launch>
+
+     <!-- <arg name ="min_x" default="-2."/> -->
+
+    <!-- <arg name="lidar_topic_cluster" default="/detection/lidar_detector/points_cluster"/> -->
+
+    <!-- <arg name="WORK_SPACE_PATH" default="$(find  vision_camera)"/> -->
+   <include file="$(find fusion)/launch/fusion.launch" />
+
+    <node pkg="tracker" type="tracker_node" name="tracker_node" output="screen">
+
+        <!-- <param name ="min_x" value="$(arg min_x)"/> -->
+    </node>
+    </launch>

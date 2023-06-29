@@ -1,6 +1,0 @@
-Log file created at: 2022/05/06 14:42:10
-Running on machine: qian
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0506 14:42:10.757088 17085 brt_node.cpp:13] /home/zgq/Documents/BRT_project/catkin_brt/src/brt_detection/Log
-I0506 14:42:10.763509 17085 project.cpp:13] /test_frame_nodecamera_topic:/kitti/camera_gray_left/image_raw
-I0506 14:42:10.765228 17085 project.cpp:16] /test_frame_nodelidar_topic:/kitti/velo/pointcloud

@@ -1,9 +1,0 @@
-<library path="lib/libmynodeletlib">
-
-  <!-- Darknet Ros Plugin -->
-  <!-- name="darknet_ros_nodelet" 后期用于指定 -->
-  <class name="darknet_ros_nodelet" type="DarknetRosNodelet" base_class_type="nodelet::Nodelet">
-    <description>Darknet Ros Nodelet.</description>
-  </class>
-
-</library>

@@ -1,0 +1,15 @@
+<launch>
+
+     <arg name ="lidar_camera_calibration" default="lidar_camera_calibration64.yaml"/>
+     <arg name ="DEBUG" default="true"/>
+
+    <!-- <arg name="lidar_topic_cluster" default="/detection/lidar_detector/points_cluster"/> -->
+
+    <!-- <arg name="WORK_SPACE_PATH" default="$(find  vision_camera)"/> -->
+    
+    <node pkg="fusion" type="fusion_node" name="fusion_node" output="screen">
+
+        <param name ="lidar_camera_calibration" value="$(arg lidar_camera_calibration)"/>
+        <param name ="DEBUG" value="$(arg DEBUG)"/>
+    </node>
+    </launch>

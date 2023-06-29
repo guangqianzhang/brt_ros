@@ -1,6 +1,6 @@
 
 
-find_package(OpenCV 4.5.5 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
