@@ -28,7 +28,7 @@
 |  输入   | 算法  | 融合 |track|输出|
 |  ----  | ----  |---|---|----|
 | 摄像头  | YOLO（nodelet） | |  | |
-|| |检测框投影融合|检测目标 `fused_objects`|byteTrack|
+|| |检测框投影融合|(byteTrack) `fused_objects`||
 | 雷达  | Apollo（cnn_seg） | ||
 
 ## 使用 
