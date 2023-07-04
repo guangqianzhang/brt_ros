@@ -227,7 +227,7 @@ def callback(ImageObj,DetectedObjects):
                 print(f"fiw:{Rect_final.width} liw:{rect.width } imgw:{rect_img.width} ovre{overlap.width}")
                 cv_image=drawrectangleIOU(cv_image, Rect_final, fused_object.id, obj.pose.position.y ,iou)
         fused_objects.append(fused_object)
-    msg.objects=DetectedObjects
+    msg.objects=fused_objects
     
 
     image_msg=bridge.cv2_to_imgmsg(cv_image)
