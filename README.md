@@ -18,7 +18,7 @@
   + 融合功能请使用`fusionpy`功能包，且运行指令为`rosrun fusionpy fusion_node.py`
   + 其他请参照正常的ros使用命令。
 
-## code
+## 历史
 + 时间：2022.5.27
 + 控制框架：ROS
 其中利用nodelet加快数据传递。
